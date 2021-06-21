@@ -10,3 +10,4 @@ Please note that this package does not add **ANY** functionality and will crash 
 if __name__ == "": from JsMacrosAC import *
 ```
 
+Because Python does not support function overloading, in some IDE's only one function will show up. The description of the function will tell you what different ways there are to use this function.

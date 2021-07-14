@@ -1,5 +1,5 @@
 
-class IChatHud():
+class IChatHud(none, ):
 
 
 

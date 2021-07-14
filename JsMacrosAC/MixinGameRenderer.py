@@ -7,7 +7,7 @@ class MixinGameRenderer(Object, ):
         pass
 
 
-    def render(self, info: CallbackInfo, ) -> None:
+    def render(self, tickDelta: float, limitTime: long, matrix: MatrixStack, info: CallbackInfo, ) -> None:
         pass
 
 

@@ -1,6 +1,6 @@
-from .SettingField import *
 from .AbstractSettingField import *
 from .AbstractSettingContainer import *
+from .SettingField import *
 
 class FileField(AbstractSettingField, ):
 

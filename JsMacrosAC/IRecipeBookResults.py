@@ -1,9 +1,9 @@
 
-class IRecipeBookResults():
+class IRecipeBookResults(none, ):
 
 
 
-    def getResultCollections(self, ) -> list:
+    def jsmacros_getResultCollections(self, ) -> list:
         pass
 
 

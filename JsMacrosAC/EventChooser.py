@@ -1,5 +1,5 @@
-from .IOverlayParent import *
 from .OverlayContainer import *
+from .IOverlayParent import *
 
 class EventChooser(OverlayContainer, ):
 

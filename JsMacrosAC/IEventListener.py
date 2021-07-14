@@ -1,7 +1,7 @@
-from .BaseEvent import *
 from .ContextContainer import *
+from .BaseEvent import *
 
-class IEventListener():
+class IEventListener(none, ):
 
 
 

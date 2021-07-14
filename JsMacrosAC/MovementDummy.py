@@ -2,12 +2,17 @@ from .PlayerInput import *
 
 class MovementDummy(LivingEntity, ):
 
-    coordsHistory: list = None
 
 
-    def __init__(player: ClientPlayerEntity, ):
+    def __init__(player: self, ):
         pass
 
+
+    def getCoordsHistory(self, ) -> list:
+        pass
+
+    def getInputs(self, ) -> list:
+        pass
 
     def applyInput(self, input: PlayerInput, ) -> Vec3d:
         pass
@@ -18,10 +23,10 @@ class MovementDummy(LivingEntity, ):
     def canMoveVoluntarily(self, ) -> bool:
         pass
 
-    def getMainHandStack(self, ) -> ItemStack:
+    def setSprinting(self, sprinting: bool, ) -> None:
         pass
 
-    def setSprinting(self, sprinting: bool, ) -> None:
+    def getMainHandStack(self, ) -> ItemStack:
         pass
 
     def getArmorItems(self, ) -> Iterable:
@@ -34,6 +39,9 @@ class MovementDummy(LivingEntity, ):
         pass
 
     def getMainArm(self, ) -> Arm:
+        pass
+
+    def clone(self, ) -> self:
         pass
 
 

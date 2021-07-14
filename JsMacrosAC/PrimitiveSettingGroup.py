@@ -1,6 +1,6 @@
-from .SettingField import *
 from .SettingsOverlay import *
 from .AbstractSettingContainer import *
+from .SettingField import *
 
 class PrimitiveSettingGroup(AbstractSettingContainer, ):
 

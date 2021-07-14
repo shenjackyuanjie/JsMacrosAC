@@ -1,7 +1,7 @@
 from .FileMapSetting import *
 from .MapSettingEntry import *
 
-class FileEntry(MapSettingEntry, ):
+class FileEntry(AbstractMapSettingContainer$MapSettingEntry, ):
 
 
 

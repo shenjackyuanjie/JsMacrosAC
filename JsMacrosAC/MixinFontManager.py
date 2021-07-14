@@ -8,7 +8,7 @@ class MixinFontManager(Object, IFontManager):
         pass
 
 
-    def getFontList(self, ) -> list:
+    def jsmacros_getFontList(self, ) -> list:
         pass
 
 

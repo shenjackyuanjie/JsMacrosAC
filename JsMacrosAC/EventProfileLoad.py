@@ -1,5 +1,5 @@
-from .BaseEvent import *
 from .BaseProfile import *
+from .BaseEvent import *
 
 class EventProfileLoad(Object, BaseEvent):
 

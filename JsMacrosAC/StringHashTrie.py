@@ -61,6 +61,9 @@ class StringHashTrie(Object, Collection):
     def getAllWithPrefix(self, prefix: str, ) -> list:
         pass
 
+    def getAllWithPrefixCaseInsensitive(self, prefix: str, ) -> list:
+        pass
+
     def getAll(self, ) -> list:
         pass
 

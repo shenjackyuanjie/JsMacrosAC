@@ -1,7 +1,7 @@
-from .ColorMapSetting import *
 from .MapSettingEntry import *
+from .ColorMapSetting import *
 
-class ColorEntry(MapSettingEntry, ):
+class ColorEntry(AbstractMapSettingContainer$MapSettingEntry, ):
 
 
 

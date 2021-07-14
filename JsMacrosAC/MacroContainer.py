@@ -1,5 +1,5 @@
-from .MultiElementContainer import *
 from .ScriptTrigger import *
+from .MultiElementContainer import *
 from .MacroScreen import *
 
 class MacroContainer(MultiElementContainer, ):

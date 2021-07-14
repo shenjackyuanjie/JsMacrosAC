@@ -3,12 +3,15 @@ from .StringHashTrie import *
 from .JsMacros import *
 from .ModMenuEntry import *
 from .JsMacroScreen import *
+from .BossBarConsumer import *
 from .CustomClickEvent import *
+from .IBeaconScreen import *
 from .IBossBarHud import *
 from .IChatHud import *
 from .IFontManager import *
 from .IHorseScreen import *
 from .IInventory import *
+from .ILoomScreen import *
 from .IMerchantScreen import *
 from .IMinecraftClient import *
 from .IPlayerListHud import *
@@ -16,12 +19,15 @@ from .IRecipeBookResults import *
 from .IRecipeBookWidget import *
 from .ISignEditScreen import *
 from .TPSData import *
+from .BeaconInventory import *
+from .CommandBuilder import *
 from .Draw2D import *
 from .Box import *
 from .Draw3D import *
 from .Line import *
 from .EnchantInventory import *
 from .Inventory import *
+from .LoomInventory import *
 from .PlayerInput import *
 from .ScriptScreen import *
 from .TextBuilder import *
@@ -37,16 +43,20 @@ from .EventDeath import *
 from .EventDimensionChange import *
 from .EventDisconnect import *
 from .EventEXPChange import *
+from .EventFallFlying import *
 from .EventHeldItemChange import *
 from .EventHungerChange import *
 from .EventItemDamage import *
 from .EventItemPickup import *
+from .EventJoinedTick import *
 from .EventJoinServer import *
 from .EventKey import *
 from .EventOpenScreen import *
 from .EventPlayerJoin import *
 from .EventPlayerLeave import *
 from .EventRecvMessage import *
+from .EventResourcePackLoaded import *
+from .EventRiding import *
 from .EventSendMessage import *
 from .EventSignEdit import *
 from .EventSound import *
@@ -57,10 +67,15 @@ from .BlockPosHelper import *
 from .BossBarHelper import *
 from .ButtonWidgetHelper import *
 from .ClientPlayerEntityHelper import *
+from .CommandContextHelper import *
 from .EntityHelper import *
 from .ItemStackHelper import *
 from .LivingEntityHelper import *
 from .MerchantEntityHelper import *
+from .NBTElementHelper import *
+from .NBTCompoundHelper import *
+from .NBTListHelper import *
+from .NBTNumberHelper import *
 from .OptionsHelper import *
 from .PlayerAbilitiesHelper import *
 from .PlayerEntityHelper import *
@@ -94,6 +109,7 @@ from .Text import *
 from .IDraw2D import *
 from .IScreen import *
 from .ClientConfigV2 import *
+from .ContextLockWatchdog import *
 from .Profile import *
 from .Sorting import *
 from .MacroSortMethod import *
@@ -108,7 +124,13 @@ from .MacroContainer import *
 from .MacroListTopbar import *
 from .MultiElementContainer import *
 from .RunningContextContainer import *
+from .Add import *
+from .HistoryStep import *
 from .History import *
+from .Remove import *
+from .Replace import *
+from .ShiftLine import *
+from .TabLines import *
 from .SelectCursor import *
 from .AbstractRenderCodeCompiler import *
 from .AutoCompleteSuggestion import *
@@ -166,6 +188,7 @@ from .LongField import *
 from .OptionsField import *
 from .StringField import *
 from .KeyListener import *
+from .MixinBeaconScreen import *
 from .MixinBossBarHud import *
 from .MixinChatHud import *
 from .MixinClientPlayNetworkHandler import *
@@ -173,6 +196,7 @@ from .MixinFontManager import *
 from .MixinFontStorage import *
 from .MixinGameRenderer import *
 from .MixinHorseScreen import *
+from .MixinLoomScreen import *
 from .MixinMerchantScreen import *
 from .MixinPlayerListHud import *
 from .MixinRecipeBookResults import *
@@ -184,6 +208,7 @@ from .MixinTrueTypeFont import *
 from .MixinHungerManager import *
 from .MixinMinecraftClient import *
 from .MixinSoundSystem import *
+from .MixinSplashOverlay import *
 from .MovementDummy import *
 from .MovementQueue import *
 from .TickBasedEvents import *
@@ -228,8 +253,10 @@ from .PerExecLibrary import *
 from .PerLanguageLibrary import *
 from .FFS import *
 from .FGlobalVars import *
+from .EventAndContext import *
 from .FJsMacros import *
 from .ScriptEventListener import *
+from .CombinedVariableClassLoader import *
 from .FReflection import *
 from .FRequest import *
 from .FWrapper import *
@@ -239,6 +266,8 @@ from .HTTPRequest import *
 from .Response import *
 from .Disconnected import *
 from .Websocket import *
+
+
 Chat = FChat()
 Client = FClient()
 GlobalVars = FGlobalVars()
@@ -251,4 +280,4 @@ Request = FRequest()
 World = FWorld()
 Time = FTime()
 World = FWorld()
-Wrapper = FWrapper()
+JavaWrapper = FWrapper()

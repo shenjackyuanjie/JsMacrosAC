@@ -1,5 +1,5 @@
-from .EditorScreen import *
 from .AbstractRenderCodeCompiler import *
+from .EditorScreen import *
 
 class ScriptCodeCompiler(AbstractRenderCodeCompiler, ):
 

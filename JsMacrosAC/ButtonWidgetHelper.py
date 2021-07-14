@@ -1,8 +1,8 @@
-from .BaseHelper import *
 from .TextHelper import *
 from .RenderElement import *
+from .BaseHelper import *
 
-class ButtonWidgetHelper(BaseHelper, RenderElement):
+class ButtonWidgetHelper(BaseHelper, RenderCommon$RenderElement):
 
     zIndex: int = None
 

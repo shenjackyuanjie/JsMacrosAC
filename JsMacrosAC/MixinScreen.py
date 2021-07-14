@@ -1,13 +1,13 @@
+from .Item import *
+from .TextHelper import *
+from .Rect import *
 from .MethodWrapper import *
 from .Image import *
-from .Rect import *
-from .TextHelper import *
-from .Item import *
-from .ButtonWidgetHelper import *
-from .ItemStackHelper import *
 from .TextFieldWidgetHelper import *
-from .IScreen import *
 from .RenderElement import *
+from .ButtonWidgetHelper import *
+from .IScreen import *
+from .ItemStackHelper import *
 
 class MixinScreen(AbstractParentElement, IScreen):
 
@@ -209,6 +209,9 @@ class MixinScreen(AbstractParentElement, IScreen):
         pass
 
     def reloadScreen(self, ) -> IScreen:
+        pass
+
+    def onRenderInternal(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, info: CallbackInfo, ) -> None:

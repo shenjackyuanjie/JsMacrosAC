@@ -1,5 +1,5 @@
-from .BaseEvent import *
 from .BaseEventRegistry import *
+from .BaseEvent import *
 from .Core import *
 
 class BaseProfile(Object, ):
@@ -20,9 +20,6 @@ class BaseProfile(Object, ):
         pass
 
     def loadOrCreateProfile(self, profileName: str, ) -> None:
-        pass
-
-    def loadProfile(self, pName: str, ) -> bool:
         pass
 
     def saveProfile(self, ) -> None:

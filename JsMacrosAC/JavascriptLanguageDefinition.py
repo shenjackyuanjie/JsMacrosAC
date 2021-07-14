@@ -1,6 +1,7 @@
 from .BaseLanguage import *
-from .BaseWrappedException import *
+from .BaseEvent import *
 from .JSScriptContext import *
+from .BaseWrappedException import *
 from .Core import *
 
 class JavascriptLanguageDefinition(BaseLanguage, ):
@@ -14,7 +15,7 @@ class JavascriptLanguageDefinition(BaseLanguage, ):
     def wrapException(self, ex: Throwable, ) -> BaseWrappedException:
         pass
 
-    def createContext(self, ) -> JSScriptContext:
+    def createContext(self, event: BaseEvent, ) -> JSScriptContext:
         pass
 
 

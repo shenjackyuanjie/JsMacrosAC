@@ -37,7 +37,7 @@ class Box(Object, ):
     def setFill(self, fill: bool, ) -> None:
         pass
 
-    def render(self, ) -> None:
+    def render(self, matrixStack: MatrixStack, ) -> None:
         pass
 
 

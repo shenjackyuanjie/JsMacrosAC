@@ -1,7 +1,7 @@
-from .SettingField import *
+from .SettingsOverlay import *
 from .MultiElementContainer import *
 from .Scrollbar import *
-from .SettingsOverlay import *
+from .SettingField import *
 
 class AbstractSettingContainer(MultiElementContainer, ):
 

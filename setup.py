@@ -1,8 +1,13 @@
 from setuptools import setup, find_packages
+from os import path
+
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
+
 
 VERSION = '0.0.1'
 DESCRIPTION = 'A package to let your IDE know what JsMacros can do'
-LONG_DESCRIPTION = 'This Package add all classes listed in the Doc to Python so you can autocomplete then in your IDE'
 
 # Setting up
 setup(
@@ -12,7 +17,7 @@ setup(
     author_email="<motzer10@gmx.de>",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=LONG_DESCRIPTION,
+    long_description=long_description,
     packages=find_packages(),
     install_requires=[],
     keywords=['python', 'JsMacros', 'Autocomplete', 'Doc'],

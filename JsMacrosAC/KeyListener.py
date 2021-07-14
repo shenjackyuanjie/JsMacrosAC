@@ -1,8 +1,8 @@
-from .BaseEvent import *
-from .BaseListener import *
-from .Core import *
-from .ContextContainer import *
 from .ScriptTrigger import *
+from .Core import *
+from .BaseListener import *
+from .ContextContainer import *
+from .BaseEvent import *
 
 class KeyListener(BaseListener, ):
 

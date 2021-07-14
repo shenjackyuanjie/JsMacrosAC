@@ -1,6 +1,6 @@
 from .MultiElementContainer import *
-from .IOverlayParent import *
 from .Scrollbar import *
+from .IOverlayParent import *
 
 class OverlayContainer(MultiElementContainer, IOverlayParent):
 
@@ -12,7 +12,7 @@ class OverlayContainer(MultiElementContainer, IOverlayParent):
         pass
 
 
-    def removeButton(self, btn: AbstractButtonWidget, ) -> None:
+    def remove(self, btn: Element, ) -> None:
         pass
 
     def openOverlay(self, overlay: self, ) -> None:

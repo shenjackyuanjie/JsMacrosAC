@@ -1,15 +1,15 @@
 
-class IRecipeBookWidget():
+class IRecipeBookWidget(none, ):
 
 
 
-    def getResults(self, ) -> RecipeBookResults:
+    def jsmacros_getResults(self, ) -> RecipeBookResults:
         pass
 
-    def isSearching(self, ) -> bool:
+    def jsmacros_isSearching(self, ) -> bool:
         pass
 
-    def refreshResultList(self, ) -> None:
+    def jsmacros_refreshResultList(self, ) -> None:
         pass
 
 

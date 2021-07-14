@@ -8,10 +8,10 @@ class MixinPlayerListHud(Object, IPlayerListHud):
         pass
 
 
-    def getHeader(self, ) -> str:
+    def jsmacros_getHeader(self, ) -> str:
         pass
 
-    def getFooter(self, ) -> str:
+    def jsmacros_getFooter(self, ) -> str:
         pass
 
 

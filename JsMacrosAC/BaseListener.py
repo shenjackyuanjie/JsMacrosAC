@@ -1,8 +1,8 @@
-from .BaseEvent import *
-from .Core import *
-from .ContextContainer import *
 from .ScriptTrigger import *
+from .Core import *
 from .IEventListener import *
+from .ContextContainer import *
+from .BaseEvent import *
 
 class BaseListener(Object, IEventListener):
 

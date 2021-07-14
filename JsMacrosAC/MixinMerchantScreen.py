@@ -8,7 +8,7 @@ class MixinMerchantScreen(Object, IMerchantScreen):
         pass
 
 
-    def selectIndex(self, index: int, ) -> None:
+    def jsmacros_selectIndex(self, index: int, ) -> None:
         pass
 
 

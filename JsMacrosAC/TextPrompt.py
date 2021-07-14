@@ -1,6 +1,6 @@
-from .IOverlayParent import *
 from .TextInput import *
 from .OverlayContainer import *
+from .IOverlayParent import *
 
 class TextPrompt(OverlayContainer, ):
 

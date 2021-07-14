@@ -1,5 +1,5 @@
 
-class Scrollbar(AbstractButtonWidget, ):
+class Scrollbar(ClickableWidget, ):
 
 
 
@@ -26,6 +26,9 @@ class Scrollbar(AbstractButtonWidget, ):
         pass
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
+        pass
+
+    def appendNarrations(self, builder: NarrationMessageBuilder, ) -> None:
         pass
 
 

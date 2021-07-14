@@ -1,7 +1,7 @@
-from .SelectCursor import *
-from .AbstractRenderCodeCompiler import *
 from .BaseScreen import *
+from .SelectCursor import *
 from .History import *
+from .AbstractRenderCodeCompiler import *
 
 class EditorScreen(BaseScreen, ):
 

@@ -1,5 +1,5 @@
-from .IOverlayParent import *
 from .OverlayContainer import *
+from .IOverlayParent import *
 
 class BaseScreen(Screen, IOverlayParent):
 
@@ -29,10 +29,10 @@ class BaseScreen(Screen, IOverlayParent):
     def closeOverlay(self, overlay: OverlayContainer, ) -> None:
         pass
 
-    def removeButton(self, btn: AbstractButtonWidget, ) -> None:
+    def remove(self, btn: Element, ) -> None:
         pass
 
-    def addButton(self, button: T, ) -> T:
+    def addDrawableChild(self, drawableElement: T, ) -> T:
         pass
 
     def setFocused(self, focused: Element, ) -> None:

@@ -1,7 +1,7 @@
 from .TextHelper import *
 from .RenderElement import *
 
-class Text(Object, RenderElement):
+class Text(Object, RenderCommon$RenderElement):
 
     text: self = None
     scale: float = None

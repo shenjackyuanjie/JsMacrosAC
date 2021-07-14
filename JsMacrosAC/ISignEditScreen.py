@@ -1,5 +1,5 @@
 
-class ISignEditScreen():
+class ISignEditScreen(none, ):
 
 
 

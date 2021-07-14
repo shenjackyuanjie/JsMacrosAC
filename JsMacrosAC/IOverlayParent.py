@@ -1,6 +1,7 @@
 from .OverlayContainer import *
+from .IContainerParent import *
 
-class IOverlayParent():
+class IOverlayParent(none, IContainerParent):
 
 
 

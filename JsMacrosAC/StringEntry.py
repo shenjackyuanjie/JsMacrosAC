@@ -1,7 +1,7 @@
 from .StringMapSetting import *
 from .MapSettingEntry import *
 
-class StringEntry(MapSettingEntry, ):
+class StringEntry(AbstractMapSettingContainer$MapSettingEntry, ):
 
 
 

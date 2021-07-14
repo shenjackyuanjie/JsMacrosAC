@@ -1,7 +1,7 @@
-from .MapSettingEntry import *
 from .ProfileSetting import *
+from .MapSettingEntry import *
 
-class ProfileEntry(MapSettingEntry, ):
+class ProfileEntry(AbstractMapSettingContainer$MapSettingEntry, ):
 
 
 

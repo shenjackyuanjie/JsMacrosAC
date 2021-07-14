@@ -1,6 +1,6 @@
 from .SourceLocation import *
 
-class HostLocation(SourceLocation, ):
+class HostLocation(BaseWrappedException$SourceLocation, ):
 
     location: str = None
 

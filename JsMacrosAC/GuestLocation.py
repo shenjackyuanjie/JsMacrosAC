@@ -1,6 +1,6 @@
 from .SourceLocation import *
 
-class GuestLocation(SourceLocation, ):
+class GuestLocation(BaseWrappedException$SourceLocation, ):
 
     file: File = None
     line: int = None

@@ -1,7 +1,7 @@
-from .MethodWrapper import *
 from .TextHelper import *
-from .ItemStackHelper import *
+from .MethodWrapper import *
 from .EntityHelper import *
+from .ItemStackHelper import *
 
 class TextBuilder(Object, ):
 

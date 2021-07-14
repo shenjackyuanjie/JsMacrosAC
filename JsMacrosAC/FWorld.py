@@ -1,8 +1,8 @@
 from .TextHelper import *
 from .BlockDataHelper import *
-from .BaseLibrary import *
-from .ScoreboardsHelper import *
 from .BlockPosHelper import *
+from .ScoreboardsHelper import *
+from .BaseLibrary import *
 
 class FWorld(BaseLibrary, ):
 

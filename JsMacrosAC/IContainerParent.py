@@ -1,14 +1,14 @@
 from .OverlayContainer import *
 from .IOverlayParent import *
 
-class IContainerParent():
+class IContainerParent(none, ):
 
 
 
-    def addButton(self, button: T, ) -> T:
+    def addDrawableChild(self, drawableElement: T, ) -> T:
         pass
 
-    def removeButton(self, button: AbstractButtonWidget, ) -> None:
+    def remove(self, button: Element, ) -> None:
         pass
 
     def openOverlay(self, overlay: OverlayContainer, ) -> None:

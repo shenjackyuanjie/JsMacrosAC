@@ -1,9 +1,9 @@
-from .BaseEvent import *
-from .BaseWrappedException import *
+from .ScriptTrigger import *
 from .Core import *
+from .BaseWrappedException import *
 from .ContextContainer import *
 from .ScriptContext import *
-from .ScriptTrigger import *
+from .BaseEvent import *
 
 class BaseLanguage(Object, ):
 
@@ -32,7 +32,7 @@ class BaseLanguage(Object, ):
     def wrapException(self, ex: Throwable, ) -> BaseWrappedException:
         pass
 
-    def createContext(self, ) -> ScriptContext:
+    def createContext(self, event: BaseEvent, ) -> ScriptContext:
         pass
 
     def extension(self, ) -> str:

@@ -1,6 +1,6 @@
-from .IOverlayParent import *
-from .IContainerParent import *
 from .OverlayContainer import *
+from .IContainerParent import *
+from .IOverlayParent import *
 
 class MultiElementContainer(DrawableHelper, IContainerParent):
 
@@ -24,7 +24,7 @@ class MultiElementContainer(DrawableHelper, IContainerParent):
     def setVisible(self, visible: bool, ) -> None:
         pass
 
-    def addButton(self, btn: T, ) -> T:
+    def addDrawableChild(self, drawableElement: T, ) -> T:
         pass
 
     def getButtons(self, ) -> list:
@@ -39,7 +39,7 @@ class MultiElementContainer(DrawableHelper, IContainerParent):
     def openOverlay(self, overlay: OverlayContainer, disableButtons: bool, ) -> None:
         pass
 
-    def removeButton(self, button: AbstractButtonWidget, ) -> None:
+    def remove(self, button: Element, ) -> None:
         pass
 
     def getFirstOverlayParent(self, ) -> IOverlayParent:

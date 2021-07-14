@@ -1,5 +1,6 @@
+from .IContainerParent import *
 
-class ICategoryTreeParent():
+class ICategoryTreeParent(none, IContainerParent):
 
 
 

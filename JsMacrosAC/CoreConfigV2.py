@@ -1,6 +1,7 @@
 
 class CoreConfigV2(Object, ):
 
+    maxLockTime: long = None
     defaultProfile: str = None
     profiles: list = None
     extraJsOptions: list = None

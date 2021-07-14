@@ -1,10 +1,11 @@
+from .BaseEvent import *
 from .ScriptContext import *
 
 class JSScriptContext(ScriptContext, ):
 
 
 
-    def __init__():
+    def __init__(event: BaseEvent, ):
         pass
 
 

@@ -16,6 +16,9 @@ class MovementQueue(Object, ):
     def append(self, input: PlayerInput, newPlayer: ClientPlayerEntity, ) -> None:
         pass
 
+    def setDrawPredictions(self, val: bool, ) -> None:
+        pass
+
     def clear(self, ) -> None:
         pass
 

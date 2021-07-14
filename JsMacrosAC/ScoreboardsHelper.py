@@ -1,7 +1,7 @@
-from .PlayerEntityHelper import *
 from .ScoreboardObjectiveHelper import *
 from .BaseHelper import *
 from .TeamHelper import *
+from .PlayerEntityHelper import *
 
 class ScoreboardsHelper(BaseHelper, ):
 

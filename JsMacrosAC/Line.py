@@ -23,7 +23,7 @@ class Line(Object, ):
     def setAlpha(self, alpha: int, ) -> None:
         pass
 
-    def render(self, ) -> None:
+    def render(self, matrixStack: MatrixStack, ) -> None:
         pass
 
 

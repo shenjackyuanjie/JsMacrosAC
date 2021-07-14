@@ -1,5 +1,5 @@
-from .BaseHelper import *
 from .TextHelper import *
+from .BaseHelper import *
 
 class ScoreboardObjectiveHelper(BaseHelper, ):
 

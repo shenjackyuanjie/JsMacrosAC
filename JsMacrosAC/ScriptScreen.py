@@ -1,5 +1,5 @@
-from .MethodWrapper import *
 from .BaseScreen import *
+from .MethodWrapper import *
 from .IScreen import *
 
 class ScriptScreen(BaseScreen, ):

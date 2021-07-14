@@ -1,7 +1,7 @@
-from .BaseLibrary import *
-from .HTTPRequest import *
-from .Websocket import *
 from .Response import *
+from .Websocket import *
+from .HTTPRequest import *
+from .BaseLibrary import *
 
 class FRequest(BaseLibrary, ):
 

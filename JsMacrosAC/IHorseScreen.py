@@ -1,5 +1,5 @@
 
-class IHorseScreen():
+class IHorseScreen(none, ):
 
 
 

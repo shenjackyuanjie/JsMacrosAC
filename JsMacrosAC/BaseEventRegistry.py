@@ -1,6 +1,6 @@
-from .Core import *
 from .ScriptTrigger import *
 from .IEventListener import *
+from .Core import *
 
 class BaseEventRegistry(Object, ):
 

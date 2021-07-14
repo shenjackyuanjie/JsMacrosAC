@@ -1,7 +1,7 @@
-from .Scrollbar import *
-from .Button import *
-from .MultiElementContainer import *
 from .ICategoryTreeParent import *
+from .Button import *
+from .Scrollbar import *
+from .MultiElementContainer import *
 
 class CategoryTreeContainer(MultiElementContainer, ICategoryTreeParent):
 

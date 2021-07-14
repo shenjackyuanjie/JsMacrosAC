@@ -8,6 +8,9 @@ class ContextContainer(Object, ):
         pass
 
 
+    def isLocked(self, ) -> bool:
+        pass
+
     def setLockThread(self, lockThread: Thread, ) -> None:
         pass
 
@@ -17,10 +20,13 @@ class ContextContainer(Object, ):
     def getLockThread(self, ) -> Thread:
         pass
 
-    def awaitLock(self, ) -> None:
+    def awaitLock(self, then: Runnable, ) -> None:
         pass
 
     def releaseLock(self, ) -> None:
+        pass
+
+    def toString(self, ) -> str:
         pass
 
 

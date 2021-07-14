@@ -1,5 +1,6 @@
-from .BaseHelper import *
 from .BlockPosHelper import *
+from .NBTElementHelper import *
+from .BaseHelper import *
 
 class BlockDataHelper(BaseHelper, ):
 
@@ -24,7 +25,7 @@ class BlockDataHelper(BaseHelper, ):
     def getName(self, ) -> str:
         pass
 
-    def getNBT(self, ) -> list:
+    def getNBT(self, ) -> NBTElementHelper:
         pass
 
     def getBlockState(self, ) -> list:

@@ -1,5 +1,5 @@
 
-class TriggerType(TriggerType, ):
+class TriggerType(Enum, ):
 
     KEY_FALLING: self = None
     KEY_RISING: self = None

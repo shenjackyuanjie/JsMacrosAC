@@ -1,5 +1,5 @@
-from .BaseEvent import *
 from .BlockDataHelper import *
+from .BaseEvent import *
 
 class EventBlockUpdate(Object, BaseEvent):
 

@@ -1,11 +1,11 @@
-from .RenderElement import *
-from .ItemStackHelper import *
-from .Image import *
-from .Rect import *
 from .Item import *
-from .IDraw2D import *
 from .TextHelper import *
+from .Rect import *
 from .MethodWrapper import *
+from .Image import *
+from .RenderElement import *
+from .IDraw2D import *
+from .ItemStackHelper import *
 
 class Draw2D(DrawableHelper, IDraw2D):
 

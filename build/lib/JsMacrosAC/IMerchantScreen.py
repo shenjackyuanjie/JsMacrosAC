@@ -1,9 +1,9 @@
 
-class IMerchantScreen():
+class IMerchantScreen(none, ):
 
 
 
-    def selectIndex(self, index: int, ) -> None:
+    def jsmacros_selectIndex(self, index: int, ) -> None:
         pass
 
 

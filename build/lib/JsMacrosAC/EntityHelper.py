@@ -1,5 +1,6 @@
-from .BaseHelper import *
 from .Pos3D import *
+from .NBTElementHelper import *
+from .BaseHelper import *
 
 class EntityHelper(BaseHelper, ):
 
@@ -51,7 +52,7 @@ class EntityHelper(BaseHelper, ):
     def getPassengers(self, ) -> list:
         pass
 
-    def getNBT(self, ) -> str:
+    def getNBT(self, ) -> NBTElementHelper:
         pass
 
     def setGlowing(self, val: bool, ) -> self:

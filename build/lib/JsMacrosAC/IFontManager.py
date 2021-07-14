@@ -1,9 +1,9 @@
 
-class IFontManager():
+class IFontManager(none, ):
 
 
 
-    def getFontList(self, ) -> list:
+    def jsmacros_getFontList(self, ) -> list:
         pass
 
 

@@ -36,5 +36,8 @@ class LivingEntityHelper(EntityHelper, ):
     def isSleeping(self, ) -> bool:
         pass
 
+    def isFallFlying(self, ) -> bool:
+        pass
+
 
     pass

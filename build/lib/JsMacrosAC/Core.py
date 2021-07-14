@@ -1,12 +1,12 @@
-from .ScriptTrigger import *
-from .BaseWrappedException import *
-from .LibraryRegistry import *
-from .BaseEventRegistry import *
-from .BaseProfile import *
-from .BaseEvent import *
-from .BaseLanguage import *
-from .ContextContainer import *
 from .ConfigManager import *
+from .BaseProfile import *
+from .BaseLanguage import *
+from .BaseEvent import *
+from .LibraryRegistry import *
+from .ScriptTrigger import *
+from .BaseEventRegistry import *
+from .ContextContainer import *
+from .BaseWrappedException import *
 
 class Core(Object, ):
 
@@ -17,6 +17,7 @@ class Core(Object, ):
     libraryRegistry: LibraryRegistry = None
     contexts: list = None
     threadContext: list = None
+    eventContexts: list = None
     languages: list = None
     defaultLang: BaseLanguage = None
 

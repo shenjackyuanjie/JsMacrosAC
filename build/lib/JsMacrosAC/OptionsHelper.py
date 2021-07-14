@@ -86,5 +86,17 @@ class OptionsHelper(BaseHelper, ):
     def getVolume(self, category: str, ) -> float:
         pass
 
+    def getSmoothCamera(self, ) -> bool:
+        pass
+
+    def setSmoothCamera(self, val: bool, ) -> None:
+        pass
+
+    def getCameraMode(self, ) -> int:
+        pass
+
+    def setCameraMode(self, mode: int, ) -> None:
+        pass
+
 
     pass

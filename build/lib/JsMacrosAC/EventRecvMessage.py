@@ -1,5 +1,5 @@
-from .BaseEvent import *
 from .TextHelper import *
+from .BaseEvent import *
 
 class EventRecvMessage(Object, BaseEvent):
 

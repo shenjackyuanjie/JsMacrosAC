@@ -5,6 +5,7 @@ JsMacrosAC/AbstractMapSettingContainer.py
 JsMacrosAC/AbstractRenderCodeCompiler.py
 JsMacrosAC/AbstractSettingContainer.py
 JsMacrosAC/AbstractSettingField.py
+JsMacrosAC/Add.py
 JsMacrosAC/AnnotatedCheckBox.py
 JsMacrosAC/AutoCompleteSuggestion.py
 JsMacrosAC/AutoCompleteSuggestor.py
@@ -17,9 +18,11 @@ JsMacrosAC/BaseListener.py
 JsMacrosAC/BaseProfile.py
 JsMacrosAC/BaseScreen.py
 JsMacrosAC/BaseWrappedException.py
+JsMacrosAC/BeaconInventory.py
 JsMacrosAC/BlockDataHelper.py
 JsMacrosAC/BlockPosHelper.py
 JsMacrosAC/BooleanField.py
+JsMacrosAC/BossBarConsumer.py
 JsMacrosAC/BossBarHelper.py
 JsMacrosAC/Box.py
 JsMacrosAC/Button.py
@@ -33,9 +36,13 @@ JsMacrosAC/ClientPlayerEntityHelper.py
 JsMacrosAC/CodeCompileEvent.py
 JsMacrosAC/ColorEntry.py
 JsMacrosAC/ColorMapSetting.py
+JsMacrosAC/CombinedVariableClassLoader.py
+JsMacrosAC/CommandBuilder.py
+JsMacrosAC/CommandContextHelper.py
 JsMacrosAC/ConfigManager.py
 JsMacrosAC/ConfirmOverlay.py
 JsMacrosAC/ContextContainer.py
+JsMacrosAC/ContextLockWatchdog.py
 JsMacrosAC/Core.py
 JsMacrosAC/CoreConfigV2.py
 JsMacrosAC/CustomClickEvent.py
@@ -49,6 +56,7 @@ JsMacrosAC/EnchantInventory.py
 JsMacrosAC/EntityHelper.py
 JsMacrosAC/Event.py
 JsMacrosAC/EventAirChange.py
+JsMacrosAC/EventAndContext.py
 JsMacrosAC/EventArmorChange.py
 JsMacrosAC/EventBlockUpdate.py
 JsMacrosAC/EventBossbar.py
@@ -61,11 +69,13 @@ JsMacrosAC/EventDeath.py
 JsMacrosAC/EventDimensionChange.py
 JsMacrosAC/EventDisconnect.py
 JsMacrosAC/EventEXPChange.py
+JsMacrosAC/EventFallFlying.py
 JsMacrosAC/EventHeldItemChange.py
 JsMacrosAC/EventHungerChange.py
 JsMacrosAC/EventItemDamage.py
 JsMacrosAC/EventItemPickup.py
 JsMacrosAC/EventJoinServer.py
+JsMacrosAC/EventJoinedTick.py
 JsMacrosAC/EventKey.py
 JsMacrosAC/EventListener.py
 JsMacrosAC/EventMacrosScreen.py
@@ -76,6 +86,8 @@ JsMacrosAC/EventPlayerLeave.py
 JsMacrosAC/EventProfileLoad.py
 JsMacrosAC/EventRecvMessage.py
 JsMacrosAC/EventRegistry.py
+JsMacrosAC/EventResourcePackLoaded.py
+JsMacrosAC/EventRiding.py
 JsMacrosAC/EventSendMessage.py
 JsMacrosAC/EventSignEdit.py
 JsMacrosAC/EventSound.py
@@ -103,7 +115,9 @@ JsMacrosAC/FloatField.py
 JsMacrosAC/GuestLocation.py
 JsMacrosAC/HTTPRequest.py
 JsMacrosAC/History.py
+JsMacrosAC/HistoryStep.py
 JsMacrosAC/HostLocation.py
+JsMacrosAC/IBeaconScreen.py
 JsMacrosAC/IBossBarHud.py
 JsMacrosAC/ICategoryTreeParent.py
 JsMacrosAC/IChatHud.py
@@ -114,6 +128,7 @@ JsMacrosAC/IFWrapper.py
 JsMacrosAC/IFontManager.py
 JsMacrosAC/IHorseScreen.py
 JsMacrosAC/IInventory.py
+JsMacrosAC/ILoomScreen.py
 JsMacrosAC/IMerchantScreen.py
 JsMacrosAC/IMinecraftClient.py
 JsMacrosAC/IOverlayParent.py
@@ -139,6 +154,7 @@ JsMacrosAC/Line.py
 JsMacrosAC/ListContainer.py
 JsMacrosAC/LivingEntityHelper.py
 JsMacrosAC/LongField.py
+JsMacrosAC/LoomInventory.py
 JsMacrosAC/MacroContainer.py
 JsMacrosAC/MacroListTopbar.py
 JsMacrosAC/MacroScreen.py
@@ -148,6 +164,7 @@ JsMacrosAC/Mappings.py
 JsMacrosAC/MerchantEntityHelper.py
 JsMacrosAC/MethodData.py
 JsMacrosAC/MethodWrapper.py
+JsMacrosAC/MixinBeaconScreen.py
 JsMacrosAC/MixinBossBarHud.py
 JsMacrosAC/MixinChatHud.py
 JsMacrosAC/MixinClientPlayNetworkHandler.py
@@ -156,6 +173,7 @@ JsMacrosAC/MixinFontStorage.py
 JsMacrosAC/MixinGameRenderer.py
 JsMacrosAC/MixinHorseScreen.py
 JsMacrosAC/MixinHungerManager.py
+JsMacrosAC/MixinLoomScreen.py
 JsMacrosAC/MixinMerchantScreen.py
 JsMacrosAC/MixinMinecraftClient.py
 JsMacrosAC/MixinPlayerListHud.py
@@ -164,12 +182,17 @@ JsMacrosAC/MixinRecipeBookWidget.py
 JsMacrosAC/MixinScreen.py
 JsMacrosAC/MixinSignEditScreen.py
 JsMacrosAC/MixinSoundSystem.py
+JsMacrosAC/MixinSplashOverlay.py
 JsMacrosAC/MixinStyleSerializer.py
 JsMacrosAC/MixinTrueTypeFont.py
 JsMacrosAC/ModMenuEntry.py
 JsMacrosAC/MovementDummy.py
 JsMacrosAC/MovementQueue.py
 JsMacrosAC/MultiElementContainer.py
+JsMacrosAC/NBTCompoundHelper.py
+JsMacrosAC/NBTElementHelper.py
+JsMacrosAC/NBTListHelper.py
+JsMacrosAC/NBTNumberHelper.py
 JsMacrosAC/Option.py
 JsMacrosAC/OptionType.py
 JsMacrosAC/OptionsField.py
@@ -194,8 +217,10 @@ JsMacrosAC/ProfileSetting.py
 JsMacrosAC/RTCSort.py
 JsMacrosAC/RecipeHelper.py
 JsMacrosAC/Rect.py
+JsMacrosAC/Remove.py
 JsMacrosAC/RenderCommon.py
 JsMacrosAC/RenderElement.py
+JsMacrosAC/Replace.py
 JsMacrosAC/Response.py
 JsMacrosAC/RunningContextContainer.py
 JsMacrosAC/ScoreboardObjectiveHelper.py
@@ -210,6 +235,7 @@ JsMacrosAC/SelectCursor.py
 JsMacrosAC/SelectorDropdownOverlay.py
 JsMacrosAC/SettingField.py
 JsMacrosAC/SettingsOverlay.py
+JsMacrosAC/ShiftLine.py
 JsMacrosAC/SortByEnabled.py
 JsMacrosAC/SortByFileName.py
 JsMacrosAC/SortByTriggerName.py
@@ -222,6 +248,7 @@ JsMacrosAC/StringField.py
 JsMacrosAC/StringHashTrie.py
 JsMacrosAC/StringMapSetting.py
 JsMacrosAC/TPSData.py
+JsMacrosAC/TabLines.py
 JsMacrosAC/TeamHelper.py
 JsMacrosAC/Text.py
 JsMacrosAC/TextBuilder.py

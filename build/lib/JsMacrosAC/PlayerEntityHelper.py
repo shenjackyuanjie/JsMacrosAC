@@ -1,6 +1,6 @@
-from .LivingEntityHelper import *
-from .PlayerAbilitiesHelper import *
 from .ItemStackHelper import *
+from .PlayerAbilitiesHelper import *
+from .LivingEntityHelper import *
 
 class PlayerEntityHelper(LivingEntityHelper, ):
 

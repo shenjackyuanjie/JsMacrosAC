@@ -1,6 +1,6 @@
 from .AbstractSettingContainer import *
-from .SettingField import *
 from .AbstractSettingField import *
+from .SettingField import *
 
 class BooleanField(AbstractSettingField, ):
 

@@ -7,10 +7,16 @@ class Inventory(Object, ):
     def create(self, ) -> self:
         pass
 
+    def click(self, slot: int, ) -> self:
+        pass
+
     def click(self, slot: int, mousebutton: int, ) -> self:
         pass
 
     def dragClick(self, slots: int, mousebutton: int, ) -> self:
+        pass
+
+    def dropSlot(self, slot: int, ) -> self:
         pass
 
     def getSelectedHotbarSlotIndex(self, ) -> int:

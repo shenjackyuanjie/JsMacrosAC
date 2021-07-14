@@ -1,11 +1,11 @@
-from .AutoCompleteSuggestion import *
-from .EditorScreen import *
-from .SelectCursor import *
-from .BaseEvent import *
-from .TextBuilder import *
-from .StringHashTrie import *
 from .TextHelper import *
+from .SelectCursor import *
 from .MethodWrapper import *
+from .StringHashTrie import *
+from .EditorScreen import *
+from .TextBuilder import *
+from .AutoCompleteSuggestion import *
+from .BaseEvent import *
 
 class CodeCompileEvent(Object, BaseEvent):
 

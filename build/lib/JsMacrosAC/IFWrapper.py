@@ -1,6 +1,6 @@
 from .MethodWrapper import *
 
-class IFWrapper():
+class IFWrapper(none, ):
 
 
 

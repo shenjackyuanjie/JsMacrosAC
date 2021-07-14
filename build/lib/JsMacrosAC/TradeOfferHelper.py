@@ -1,6 +1,7 @@
-from .ItemStackHelper import *
 from .BaseHelper import *
+from .NBTElementHelper import *
 from .VillagerInventory import *
+from .ItemStackHelper import *
 
 class TradeOfferHelper(BaseHelper, ):
 
@@ -22,7 +23,7 @@ class TradeOfferHelper(BaseHelper, ):
     def isAvailable(self, ) -> bool:
         pass
 
-    def getNBT(self, ) -> str:
+    def getNBT(self, ) -> NBTElementHelper:
         pass
 
     def getUses(self, ) -> int:

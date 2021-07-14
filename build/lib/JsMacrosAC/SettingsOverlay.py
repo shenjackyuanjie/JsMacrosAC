@@ -1,6 +1,6 @@
-from .IOverlayParent import *
-from .ICategoryTreeParent import *
 from .OverlayContainer import *
+from .ICategoryTreeParent import *
+from .IOverlayParent import *
 
 class SettingsOverlay(OverlayContainer, ICategoryTreeParent):
 

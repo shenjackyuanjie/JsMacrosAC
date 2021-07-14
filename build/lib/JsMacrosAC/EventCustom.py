@@ -1,5 +1,5 @@
-from .BaseEvent import *
 from .MethodWrapper import *
+from .BaseEvent import *
 
 class EventCustom(Object, BaseEvent):
 

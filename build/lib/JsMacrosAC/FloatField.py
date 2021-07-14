@@ -1,6 +1,6 @@
+from .AbstractSettingField import *
 from .AbstractSettingContainer import *
 from .SettingField import *
-from .AbstractSettingField import *
 
 class FloatField(AbstractSettingField, ):
 

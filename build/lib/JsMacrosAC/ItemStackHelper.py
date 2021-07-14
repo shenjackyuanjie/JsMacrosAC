@@ -1,4 +1,5 @@
 from .BaseHelper import *
+from .NBTElementHelper import *
 
 class ItemStackHelper(BaseHelper, ):
 
@@ -35,7 +36,7 @@ class ItemStackHelper(BaseHelper, ):
     def getMaxCount(self, ) -> int:
         pass
 
-    def getNBT(self, ) -> str:
+    def getNBT(self, ) -> NBTElementHelper:
         pass
 
     def getCreativeTab(self, ) -> str:

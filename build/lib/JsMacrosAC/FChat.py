@@ -1,6 +1,7 @@
+from .TextHelper import *
+from .CommandBuilder import *
 from .TextBuilder import *
 from .BaseLibrary import *
-from .TextHelper import *
 
 class FChat(BaseLibrary, ):
 
@@ -34,6 +35,9 @@ class FChat(BaseLibrary, ):
         pass
 
     def createTextBuilder(self, ) -> TextBuilder:
+        pass
+
+    def createCommandBuilder(self, name: str, ) -> CommandBuilder:
         pass
 
 

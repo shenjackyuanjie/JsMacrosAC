@@ -1,6 +1,6 @@
 from .SettingsOverlay import *
-from .Scrollbar import *
 from .MultiElementContainer import *
+from .Scrollbar import *
 from .SettingField import *
 
 class AbstractSettingContainer(MultiElementContainer, ):

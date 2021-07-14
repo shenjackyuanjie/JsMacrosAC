@@ -1,6 +1,6 @@
-from .IOverlayParent import *
 from .fileObj import *
 from .OverlayContainer import *
+from .IOverlayParent import *
 
 class FileChooser(OverlayContainer, ):
 

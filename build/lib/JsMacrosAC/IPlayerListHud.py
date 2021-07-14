@@ -1,12 +1,12 @@
 
-class IPlayerListHud():
+class IPlayerListHud(none, ):
 
 
 
-    def getHeader(self, ) -> str:
+    def jsmacros_getHeader(self, ) -> str:
         pass
 
-    def getFooter(self, ) -> str:
+    def jsmacros_getFooter(self, ) -> str:
         pass
 
 

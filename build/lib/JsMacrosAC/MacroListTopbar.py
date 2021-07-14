@@ -1,6 +1,6 @@
 from .MultiElementContainer import *
-from .MacroScreen import *
 from .TriggerType import *
+from .MacroScreen import *
 
 class MacroListTopbar(MultiElementContainer, ):
 

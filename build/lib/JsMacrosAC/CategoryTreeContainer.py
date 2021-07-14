@@ -1,6 +1,6 @@
+from .ICategoryTreeParent import *
 from .Button import *
 from .Scrollbar import *
-from .ICategoryTreeParent import *
 from .MultiElementContainer import *
 
 class CategoryTreeContainer(MultiElementContainer, ICategoryTreeParent):

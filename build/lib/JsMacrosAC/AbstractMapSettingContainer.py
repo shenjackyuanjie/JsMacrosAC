@@ -1,5 +1,5 @@
-from .AbstractSettingContainer import *
 from .SettingsOverlay import *
+from .AbstractSettingContainer import *
 from .SettingField import *
 
 class AbstractMapSettingContainer(AbstractSettingContainer, ):

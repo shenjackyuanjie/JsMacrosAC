@@ -8,7 +8,7 @@ class MixinRecipeBookResults(Object, IRecipeBookResults):
         pass
 
 
-    def getResultCollections(self, ) -> list:
+    def jsmacros_getResultCollections(self, ) -> list:
         pass
 
 

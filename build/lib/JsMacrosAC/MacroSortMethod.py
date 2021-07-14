@@ -1,5 +1,5 @@
 
-class MacroSortMethod(MacroSortMethod, ):
+class MacroSortMethod(Enum, ):
 
     Enabled: self = None
     TriggerName: self = None

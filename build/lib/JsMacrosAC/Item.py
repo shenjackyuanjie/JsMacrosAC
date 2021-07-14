@@ -1,7 +1,7 @@
 from .RenderElement import *
 from .ItemStackHelper import *
 
-class Item(Object, RenderElement):
+class Item(Object, RenderCommon$RenderElement):
 
     item: ItemStack = None
     ovText: str = None

@@ -1,5 +1,5 @@
 
-class Button(AbstractPressableButtonWidget, ):
+class Button(PressableWidget, ):
 
     horizCenter: bool = None
     onPress: Consumer = None
@@ -36,6 +36,9 @@ class Button(AbstractPressableButtonWidget, ):
         pass
 
     def onPress(self, ) -> None:
+        pass
+
+    def appendNarrations(self, builder: NarrationMessageBuilder, ) -> None:
         pass
 
 

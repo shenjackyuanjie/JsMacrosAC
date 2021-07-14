@@ -1,6 +1,6 @@
 from .AbstractSettingContainer import *
-from .MultiElementContainer import *
 from .SettingField import *
+from .MultiElementContainer import *
 
 class AbstractSettingField(MultiElementContainer, ):
 

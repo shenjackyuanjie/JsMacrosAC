@@ -1,6 +1,7 @@
+from .IEventListener import *
 from .MethodWrapper import *
 
-class ScriptEventListener():
+class ScriptEventListener(none, IEventListener):
 
 
 

@@ -1,5 +1,5 @@
-from .BaseEvent import *
 from .Pos3D import *
+from .BaseEvent import *
 
 class EventSignEdit(Object, BaseEvent):
 

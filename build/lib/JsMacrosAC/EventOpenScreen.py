@@ -1,5 +1,5 @@
-from .BaseEvent import *
 from .IScreen import *
+from .BaseEvent import *
 
 class EventOpenScreen(Object, BaseEvent):
 

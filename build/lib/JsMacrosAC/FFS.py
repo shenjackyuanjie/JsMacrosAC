@@ -1,5 +1,5 @@
-from .BaseLibrary import *
 from .FileHandler import *
+from .BaseLibrary import *
 
 class FFS(BaseLibrary, ):
 

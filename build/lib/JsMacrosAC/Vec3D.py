@@ -1,7 +1,7 @@
 from .Pos3D import *
 from .Vec2D import *
 
-class Vec3D(Vec2D, ):
+class Vec3D(PositionCommon$Vec2D, ):
 
     z1: float = None
     z2: float = None

@@ -1,5 +1,5 @@
-from .Vec2D import *
 from .Pos3D import *
+from .Vec2D import *
 
 class Pos2D(Object, ):
 

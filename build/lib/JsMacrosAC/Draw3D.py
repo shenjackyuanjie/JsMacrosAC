@@ -1,6 +1,6 @@
-from .Line import *
 from .Box import *
 from .Pos3D import *
+from .Line import *
 
 class Draw3D(Object, ):
 
@@ -55,7 +55,7 @@ class Draw3D(Object, ):
     def addPoint(self, x: float, y: float, z: float, radius: float, color: int, alpha: int, cull: bool, ) -> Box:
         pass
 
-    def render(self, ) -> None:
+    def render(self, matrixStack: MatrixStack, ) -> None:
         pass
 
 

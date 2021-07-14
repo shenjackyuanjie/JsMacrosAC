@@ -1,11 +1,12 @@
-from .ItemStackHelper import *
-from .Rect import *
 from .Item import *
-from .TextFieldWidgetHelper import *
+from .Rect import *
 from .MethodWrapper import *
+from .TextFieldWidgetHelper import *
+from .IDraw2D import *
 from .ButtonWidgetHelper import *
+from .ItemStackHelper import *
 
-class IScreen():
+class IScreen(none, IDraw2D):
 
 
 
@@ -94,6 +95,9 @@ class IScreen():
         pass
 
     def reloadScreen(self, ) -> self:
+        pass
+
+    def onRenderInternal(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
 
 

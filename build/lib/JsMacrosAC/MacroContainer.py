@@ -1,6 +1,6 @@
+from .ScriptTrigger import *
 from .MultiElementContainer import *
 from .MacroScreen import *
-from .ScriptTrigger import *
 
 class MacroContainer(MultiElementContainer, ):
 

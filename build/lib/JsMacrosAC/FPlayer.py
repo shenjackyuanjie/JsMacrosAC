@@ -1,11 +1,11 @@
-from .EntityHelper import *
-from .ClientPlayerEntityHelper import *
-from .BlockDataHelper import *
-from .BaseLibrary import *
-from .PlayerInput import *
 from .MethodWrapper import *
+from .EntityHelper import *
 from .Pos3D import *
+from .BlockDataHelper import *
+from .ClientPlayerEntityHelper import *
+from .PlayerInput import *
 from .Inventory import *
+from .BaseLibrary import *
 
 class FPlayer(BaseLibrary, ):
 
@@ -65,6 +65,9 @@ class FPlayer(BaseLibrary, ):
     def clearInputs(self, ) -> None:
         pass
 
+    def setDrawPredictions(self, val: bool, ) -> None:
+        pass
+
     def predictInput(self, input: PlayerInput, ) -> Pos3D:
         pass
 
@@ -81,6 +84,12 @@ class FPlayer(BaseLibrary, ):
         pass
 
     def moveBackward(self, yaw: float, ) -> None:
+        pass
+
+    def moveStrafeLeft(self, yaw: float, ) -> None:
+        pass
+
+    def moveStrafeRight(self, yaw: float, ) -> None:
         pass
 
 

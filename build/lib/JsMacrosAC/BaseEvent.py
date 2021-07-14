@@ -1,6 +1,6 @@
 from .BaseProfile import *
 
-class BaseEvent():
+class BaseEvent(none, ):
 
     profile: BaseProfile = None
 

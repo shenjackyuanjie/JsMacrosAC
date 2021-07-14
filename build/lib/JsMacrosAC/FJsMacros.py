@@ -1,10 +1,11 @@
 from .BaseProfile import *
-from .IEventListener import *
-from .BaseLibrary import *
-from .ContextContainer import *
-from .ConfigManager import *
 from .MethodWrapper import *
+from .ConfigManager import *
+from .IEventListener import *
+from .ContextContainer import *
 from .EventCustom import *
+from .EventAndContext import *
+from .BaseLibrary import *
 
 class FJsMacros(BaseLibrary, ):
 
@@ -47,6 +48,15 @@ class FJsMacros(BaseLibrary, ):
         pass
 
     def off(self, event: str, listener: IEventListener, ) -> bool:
+        pass
+
+    def waitForEvent(self, event: str, ) -> EventAndContext:
+        pass
+
+    def waitForEvent(self, event: str, filter: MethodWrapper, ) -> EventAndContext:
+        pass
+
+    def waitForEvent(self, event: str, filter: MethodWrapper, runBeforeWaiting: MethodWrapper, ) -> EventAndContext:
         pass
 
     def listeners(self, event: str, ) -> list:

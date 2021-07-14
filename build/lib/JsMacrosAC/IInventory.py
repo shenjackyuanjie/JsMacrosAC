@@ -1,5 +1,5 @@
 
-class IInventory():
+class IInventory(none, ):
 
 
 

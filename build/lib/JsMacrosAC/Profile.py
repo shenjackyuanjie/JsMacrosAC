@@ -10,9 +10,6 @@ class Profile(BaseProfile, ):
         pass
 
 
-    def loadProfile(self, profileName: str, ) -> bool:
-        pass
-
     def triggerEventJoin(self, event: BaseEvent, ) -> None:
         pass
 

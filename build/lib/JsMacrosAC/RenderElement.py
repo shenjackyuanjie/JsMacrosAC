@@ -1,5 +1,5 @@
 
-class RenderElement():
+class RenderElement(none, Drawable):
 
 
 

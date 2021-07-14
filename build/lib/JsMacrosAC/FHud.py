@@ -1,8 +1,9 @@
-from .Draw2D import *
-from .BaseLibrary import *
+from .ScriptScreen import *
 from .Draw3D import *
-from .IDraw2D import *
+from .Draw2D import *
 from .IScreen import *
+from .IDraw2D import *
+from .BaseLibrary import *
 
 class FHud(BaseLibrary, ):
 
@@ -10,7 +11,7 @@ class FHud(BaseLibrary, ):
     renders: list = None
 
 
-    def createScreen(self, title: str, dirtBG: bool, ) -> IScreen:
+    def createScreen(self, title: str, dirtBG: bool, ) -> ScriptScreen:
         pass
 
     def openScreen(self, s: IScreen, ) -> None:

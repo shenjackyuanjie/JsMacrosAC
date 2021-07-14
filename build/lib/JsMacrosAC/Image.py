@@ -1,6 +1,6 @@
 from .RenderElement import *
 
-class Image(Object, RenderElement):
+class Image(Object, RenderCommon$RenderElement):
 
     rotation: float = None
     x: int = None

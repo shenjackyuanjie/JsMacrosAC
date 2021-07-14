@@ -1,5 +1,5 @@
 
-class IBossBarHud():
+class IBossBarHud(none, ):
 
 
 

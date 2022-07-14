@@ -2,13 +2,11 @@ from .OverlayContainer import *
 from .ICategoryTreeParent import *
 from .IOverlayParent import *
 
+
 class SettingsOverlay(OverlayContainer, ICategoryTreeParent):
-
-
 
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, parent: IOverlayParent, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -27,6 +25,5 @@ class SettingsOverlay(OverlayContainer, ICategoryTreeParent):
 
     def onClose(self, ) -> None:
         pass
-
 
     pass

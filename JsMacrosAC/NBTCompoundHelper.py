@@ -1,9 +1,8 @@
 from .NBTElementHelper import *
 from .NBTElementHelper import *
 
+
 class NBTCompoundHelper(NBTElementHelper, ):
-
-
 
     def getType(self, key: str, ) -> int:
         pass
@@ -16,6 +15,5 @@ class NBTCompoundHelper(NBTElementHelper, ):
 
     def asString(self, key: str, ) -> str:
         pass
-
 
     pass

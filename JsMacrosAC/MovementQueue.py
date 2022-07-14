@@ -1,14 +1,12 @@
 from .PlayerInput import *
 from .Draw3D import *
 
+
 class MovementQueue(Object, ):
-
     predPoints: Draw3D = None
-
 
     def __init__():
         pass
-
 
     def tick(self, newPlayer: ClientPlayerEntity, ) -> PlayerInput:
         pass
@@ -21,6 +19,5 @@ class MovementQueue(Object, ):
 
     def clear(self, ) -> None:
         pass
-
 
     pass

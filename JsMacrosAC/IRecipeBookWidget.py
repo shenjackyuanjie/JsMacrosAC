@@ -1,7 +1,4 @@
-
 class IRecipeBookWidget(none, ):
-
-
 
     def jsmacros_getResults(self, ) -> RecipeBookResults:
         pass
@@ -11,6 +8,5 @@ class IRecipeBookWidget(none, ):
 
     def jsmacros_refreshResultList(self, ) -> None:
         pass
-
 
     pass

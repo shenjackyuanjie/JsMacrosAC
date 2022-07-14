@@ -1,16 +1,14 @@
 from .TriggerType import *
 
-class ScriptTrigger(Object, ):
 
+class ScriptTrigger(Object, ):
     triggerType: TriggerType = None
     event: str = None
     scriptFile: str = None
     enabled: bool = None
 
-
     def __init__(triggerType: TriggerType, event: str, scriptFile: str, enabled: bool, ):
         pass
-
 
     def equals(self, macro: self, ) -> bool:
         pass
@@ -35,6 +33,5 @@ class ScriptTrigger(Object, ):
 
     def getEnabled(self, ) -> bool:
         pass
-
 
     pass

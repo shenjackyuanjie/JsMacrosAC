@@ -1,17 +1,15 @@
 from .Button import *
 
-class TextInput(Button, ):
 
+class TextInput(Button, ):
     onChange: Consumer = None
     mask: str = None
     content: str = None
     selStartIndex: int = None
     selEndIndex: int = None
 
-
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, color: int, borderColor: int, hilightColor: int, textColor: int, message: str, onClick: Consumer, onChange: Consumer, ):
         pass
-
 
     def setMessage(self, message: str, ) -> None:
         pass
@@ -42,6 +40,5 @@ class TextInput(Button, ):
 
     def setSelected(self, sel: bool, ) -> None:
         pass
-
 
     pass

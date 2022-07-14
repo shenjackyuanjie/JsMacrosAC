@@ -2,13 +2,11 @@ from .BaseProfile import *
 from .BaseEvent import *
 from .Core import *
 
+
 class Profile(BaseProfile, ):
-
-
 
     def __init__(runner: Core, ):
         pass
-
 
     def triggerEventJoin(self, event: BaseEvent, ) -> None:
         pass
@@ -21,6 +19,5 @@ class Profile(BaseProfile, ):
 
     def initRegistries(self, ) -> None:
         pass
-
 
     pass

@@ -3,13 +3,11 @@ from .MethodWrapper import *
 from .EntityHelper import *
 from .ItemStackHelper import *
 
+
 class TextBuilder(Object, ):
-
-
 
     def __init__():
         pass
-
 
     def append(self, text: Object, ) -> self:
         pass
@@ -40,6 +38,5 @@ class TextBuilder(Object, ):
 
     def build(self, ) -> TextHelper:
         pass
-
 
     pass

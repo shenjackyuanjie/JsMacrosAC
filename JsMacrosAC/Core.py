@@ -8,8 +8,8 @@ from .BaseEventRegistry import *
 from .ContextContainer import *
 from .BaseWrappedException import *
 
-class Core(Object, ):
 
+class Core(Object, ):
     instance: self = None
     eventRegistry: BaseEventRegistry = None
     profile: BaseProfile = None
@@ -20,7 +20,6 @@ class Core(Object, ):
     eventContexts: list = None
     languages: list = None
     defaultLang: BaseLanguage = None
-
 
     def createInstance(self, eventRegistryFunction: Function, profileFunction: Function, configFolder: File, macroFolder: File, logger: Logger, ) -> self:
         pass
@@ -39,6 +38,5 @@ class Core(Object, ):
 
     def wrapException(self, ex: Throwable, ) -> BaseWrappedException:
         pass
-
 
     pass

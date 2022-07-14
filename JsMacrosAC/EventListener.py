@@ -4,16 +4,13 @@ from .BaseListener import *
 from .ContextContainer import *
 from .BaseEvent import *
 
+
 class EventListener(BaseListener, ):
-
-
 
     def __init__(macro: ScriptTrigger, runner: Core, ):
         pass
 
-
     def trigger(self, event: BaseEvent, ) -> ContextContainer:
         pass
-
 
     pass

@@ -1,14 +1,12 @@
 from .Option import *
 
-class SettingField(Object, ):
 
+class SettingField(Object, ):
     type: object = None
     option: Option = None
 
-
     def __init__(option: Option, containingClass: Object, f: Field, getter: Method, setter: Method, type: object, ):
         pass
-
 
     def set(self, o: T, ) -> None:
         pass
@@ -24,6 +22,5 @@ class SettingField(Object, ):
 
     def isSimple(self, ) -> bool:
         pass
-
 
     pass

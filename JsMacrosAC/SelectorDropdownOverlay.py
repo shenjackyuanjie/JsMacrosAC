@@ -1,13 +1,11 @@
 from .OverlayContainer import *
 from .IOverlayParent import *
 
+
 class SelectorDropdownOverlay(OverlayContainer, ):
-
-
 
     def __init__(x: int, y: int, width: int, height: int, choices: list, textRenderer: TextRenderer, parent: IOverlayParent, onChoice: Consumer, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -26,6 +24,5 @@ class SelectorDropdownOverlay(OverlayContainer, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

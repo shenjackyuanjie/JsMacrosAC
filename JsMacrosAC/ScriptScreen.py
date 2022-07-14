@@ -2,13 +2,11 @@ from .BaseScreen import *
 from .MethodWrapper import *
 from .IScreen import *
 
+
 class ScriptScreen(BaseScreen, ):
-
-
 
     def __init__(title: str, dirt: bool, ):
         pass
-
 
     def setParent(self, parent: IScreen, ) -> None:
         pass
@@ -21,6 +19,5 @@ class ScriptScreen(BaseScreen, ):
 
     def onClose(self, ) -> None:
         pass
-
 
     pass

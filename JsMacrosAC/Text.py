@@ -1,6 +1,7 @@
 from .TextHelper import *
 from .RenderElement import *
 
+
 class Text(Object, RenderCommon$RenderElement):
 
     text: self = None
@@ -13,10 +14,8 @@ class Text(Object, RenderCommon$RenderElement):
     shadow: bool = None
     zIndex: int = None
 
-
     def __init__(text: str, x: int, y: int, color: int, zIndex: int, shadow: bool, scale: float, rotation: float, ):
         pass
-
 
     def setScale(self, scale: float, ) -> self:
         pass
@@ -44,6 +43,5 @@ class Text(Object, RenderCommon$RenderElement):
 
     def getZIndex(self, ) -> int:
         pass
-
 
     pass

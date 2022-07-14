@@ -1,7 +1,4 @@
-
 class IMinecraftClient(none, ):
-
-
 
     def jsmacros_getFontManager(self, ) -> FontManager:
         pass
@@ -11,6 +8,5 @@ class IMinecraftClient(none, ):
 
     def jsmacros_doAttack(self, ) -> None:
         pass
-
 
     pass

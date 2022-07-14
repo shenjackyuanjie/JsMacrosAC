@@ -3,8 +3,8 @@ from .Button import *
 from .Scrollbar import *
 from .MultiElementContainer import *
 
-class CategoryTreeContainer(MultiElementContainer, ICategoryTreeParent):
 
+class CategoryTreeContainer(MultiElementContainer, ICategoryTreeParent):
     category: str = None
     scroll: Scrollbar = None
     children: list = None
@@ -14,10 +14,8 @@ class CategoryTreeContainer(MultiElementContainer, ICategoryTreeParent):
     topScroll: int = None
     btnHeight: int = None
 
-
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, parent: ICategoryTreeParent, ):
         pass
-
 
     def addCategory(self, category: str, ) -> self:
         pass
@@ -36,6 +34,5 @@ class CategoryTreeContainer(MultiElementContainer, ICategoryTreeParent):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

@@ -1,15 +1,11 @@
-
 class Button(PressableWidget, ):
-
     horizCenter: bool = None
     onPress: Consumer = None
     hovering: bool = None
     forceHover: bool = None
 
-
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, color: int, borderColor: int, hilightColor: int, textColor: int, message: str, onPress: Consumer, ):
         pass
-
 
     def setPos(self, x: int, y: int, width: int, height: int, ) -> self:
         pass
@@ -40,6 +36,5 @@ class Button(PressableWidget, ):
 
     def appendNarrations(self, builder: NarrationMessageBuilder, ) -> None:
         pass
-
 
     pass

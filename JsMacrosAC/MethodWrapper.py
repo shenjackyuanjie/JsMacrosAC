@@ -1,11 +1,7 @@
-
 class MethodWrapper(Object, Consumer):
-
-
 
     def __init__():
         pass
-
 
     def accept(self, t: T, ) -> None:
         pass
@@ -36,6 +32,5 @@ class MethodWrapper(Object, Consumer):
 
     def negate(self, ) -> self:
         pass
-
 
     pass

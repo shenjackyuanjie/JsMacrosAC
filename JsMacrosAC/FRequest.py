@@ -3,9 +3,8 @@ from .Websocket import *
 from .HTTPRequest import *
 from .BaseLibrary import *
 
+
 class FRequest(BaseLibrary, ):
-
-
 
     def create(self, url: str, ) -> HTTPRequest:
         pass
@@ -27,6 +26,5 @@ class FRequest(BaseLibrary, ):
 
     def createWS2(self, url: str, ) -> Websocket:
         pass
-
 
     pass

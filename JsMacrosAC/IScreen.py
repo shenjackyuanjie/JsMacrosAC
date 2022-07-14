@@ -6,9 +6,8 @@ from .IDraw2D import *
 from .ButtonWidgetHelper import *
 from .ItemStackHelper import *
 
+
 class IScreen(none, IDraw2D):
-
-
 
     def getScreenClassName(self, ) -> str:
         pass
@@ -99,6 +98,5 @@ class IScreen(none, IDraw2D):
 
     def onRenderInternal(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

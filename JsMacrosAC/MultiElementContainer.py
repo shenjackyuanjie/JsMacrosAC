@@ -2,18 +2,16 @@ from .OverlayContainer import *
 from .IContainerParent import *
 from .IOverlayParent import *
 
-class MultiElementContainer(DrawableHelper, IContainerParent):
 
+class MultiElementContainer(DrawableHelper, IContainerParent):
     parent: T = None
     x: int = None
     y: int = None
     width: int = None
     height: int = None
 
-
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, parent: T, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -47,6 +45,5 @@ class MultiElementContainer(DrawableHelper, IContainerParent):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

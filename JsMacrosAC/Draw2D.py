@@ -7,15 +7,13 @@ from .RenderElement import *
 from .IDraw2D import *
 from .ItemStackHelper import *
 
-class Draw2D(DrawableHelper, IDraw2D):
 
+class Draw2D(DrawableHelper, IDraw2D):
     onInit: MethodWrapper = None
     catchInit: MethodWrapper = None
 
-
     def __init__():
         pass
-
 
     def getWidth(self, ) -> int:
         pass
@@ -151,6 +149,5 @@ class Draw2D(DrawableHelper, IDraw2D):
 
     def setOnFailInit(self, catchInit: MethodWrapper, ) -> self:
         pass
-
 
     pass

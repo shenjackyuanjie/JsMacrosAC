@@ -2,15 +2,13 @@ from .MultiElementContainer import *
 from .Scrollbar import *
 from .IOverlayParent import *
 
-class OverlayContainer(MultiElementContainer, IOverlayParent):
 
+class OverlayContainer(MultiElementContainer, IOverlayParent):
     savedBtnStates: list = None
     scroll: Scrollbar = None
 
-
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, parent: IOverlayParent, ):
         pass
-
 
     def remove(self, btn: Element, ) -> None:
         pass
@@ -50,6 +48,5 @@ class OverlayContainer(MultiElementContainer, IOverlayParent):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

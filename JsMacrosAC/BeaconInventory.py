@@ -1,8 +1,7 @@
 from .Inventory import *
 
+
 class BeaconInventory(Inventory, ):
-
-
 
     def getLevel(self, ) -> int:
         pass
@@ -21,6 +20,5 @@ class BeaconInventory(Inventory, ):
 
     def applyEffects(self, ) -> bool:
         pass
-
 
     pass

@@ -1,8 +1,7 @@
 from .MethodWrapper import *
 
+
 class IFWrapper(none, ):
-
-
 
     def methodToJava(self, c: T, ) -> MethodWrapper:
         pass
@@ -12,6 +11,5 @@ class IFWrapper(none, ):
 
     def stop(self, ) -> None:
         pass
-
 
     pass

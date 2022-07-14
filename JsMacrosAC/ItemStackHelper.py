@@ -1,13 +1,11 @@
 from .BaseHelper import *
 from .NBTElementHelper import *
 
+
 class ItemStackHelper(BaseHelper, ):
-
-
 
     def __init__(i: ItemStack, ):
         pass
-
 
     def setDamage(self, damage: int, ) -> self:
         pass
@@ -77,6 +75,5 @@ class ItemStackHelper(BaseHelper, ):
 
     def copy(self, ) -> self:
         pass
-
 
     pass

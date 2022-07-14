@@ -1,9 +1,8 @@
 from .OverlayContainer import *
 from .IOverlayParent import *
 
+
 class BaseScreen(Screen, IOverlayParent):
-
-
 
     def trimmed(self, textRenderer: TextRenderer, str: StringVisitable, width: int, ) -> OrderedText:
         pass
@@ -61,6 +60,5 @@ class BaseScreen(Screen, IOverlayParent):
 
     def openParent(self, ) -> None:
         pass
-
 
     pass

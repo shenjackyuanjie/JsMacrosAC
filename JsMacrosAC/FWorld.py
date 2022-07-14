@@ -4,13 +4,12 @@ from .BlockPosHelper import *
 from .ScoreboardsHelper import *
 from .BaseLibrary import *
 
-class FWorld(BaseLibrary, ):
 
+class FWorld(BaseLibrary, ):
     serverInstantTPS: float = None
     server1MAverageTPS: float = None
     server5MAverageTPS: float = None
     server15MAverageTPS: float = None
-
 
     def isWorldLoaded(self, ) -> bool:
         pass
@@ -104,6 +103,5 @@ class FWorld(BaseLibrary, ):
 
     def getServer15MAverageTPS(self, ) -> float:
         pass
-
 
     pass

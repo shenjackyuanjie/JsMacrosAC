@@ -2,14 +2,12 @@ from .CancelScreen import *
 from .ScriptContext import *
 from .MultiElementContainer import *
 
+
 class RunningContextContainer(MultiElementContainer, ):
-
     t: WeakReference = None
-
 
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, parent: CancelScreen, t: ScriptContext, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -19,6 +17,5 @@ class RunningContextContainer(MultiElementContainer, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

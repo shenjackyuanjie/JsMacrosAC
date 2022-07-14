@@ -1,11 +1,7 @@
-
 class Scrollbar(ClickableWidget, ):
-
-
 
     def __init__(x: int, y: int, width: int, height: int, color: int, borderColor: int, hilightColor: int, scrollPages: float, onChange: Consumer, ):
         pass
-
 
     def setPos(self, x: int, y: int, width: int, height: int, ) -> self:
         pass
@@ -30,6 +26,5 @@ class Scrollbar(ClickableWidget, ):
 
     def appendNarrations(self, builder: NarrationMessageBuilder, ) -> None:
         pass
-
 
     pass

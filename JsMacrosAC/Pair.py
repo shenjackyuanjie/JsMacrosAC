@@ -1,11 +1,7 @@
-
 class Pair(Object, ):
-
-
 
     def __init__(t: T, u: U, ):
         pass
-
 
     def setU(self, u: U, ) -> None:
         pass
@@ -18,6 +14,5 @@ class Pair(Object, ):
 
     def getT(self, ) -> T:
         pass
-
 
     pass

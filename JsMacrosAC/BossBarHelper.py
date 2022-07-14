@@ -1,13 +1,11 @@
 from .TextHelper import *
 from .BaseHelper import *
 
+
 class BossBarHelper(BaseHelper, ):
-
-
 
     def __init__(b: BossBar, ):
         pass
-
 
     def getUUID(self, ) -> str:
         pass
@@ -26,6 +24,5 @@ class BossBarHelper(BaseHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

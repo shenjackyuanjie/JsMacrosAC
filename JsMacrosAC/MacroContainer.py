@@ -2,13 +2,11 @@ from .ScriptTrigger import *
 from .MultiElementContainer import *
 from .MacroScreen import *
 
+
 class MacroContainer(MultiElementContainer, ):
-
-
 
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, macro: ScriptTrigger, parent: MacroScreen, ):
         pass
-
 
     def getRawMacro(self, ) -> ScriptTrigger:
         pass
@@ -36,6 +34,5 @@ class MacroContainer(MultiElementContainer, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

@@ -1,13 +1,11 @@
 from .MultiElementContainer import *
 from .AbstractMapSettingContainer import *
 
+
 class MapSettingEntry(MultiElementContainer, ):
-
-
 
     def __init__(x: int, y: int, width: int, textRenderer: TextRenderer, parent: AbstractMapSettingContainer, key: str, value: T, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -23,6 +21,5 @@ class MapSettingEntry(MultiElementContainer, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

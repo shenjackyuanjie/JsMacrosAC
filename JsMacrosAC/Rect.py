@@ -1,5 +1,6 @@
 from .RenderElement import *
 
+
 class Rect(Object, RenderCommon$RenderElement):
 
     rotation: float = None
@@ -10,10 +11,8 @@ class Rect(Object, RenderCommon$RenderElement):
     color: int = None
     zIndex: int = None
 
-
     def __init__(x1: int, y1: int, x2: int, y2: int, color: int, rotation: float, zIndex: int, ):
         pass
-
 
     def setColor(self, color: int, ) -> self:
         pass
@@ -35,6 +34,5 @@ class Rect(Object, RenderCommon$RenderElement):
 
     def getZIndex(self, ) -> int:
         pass
-
 
     pass

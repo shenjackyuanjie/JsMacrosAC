@@ -2,13 +2,11 @@ from .ItemStackHelper import *
 from .PlayerAbilitiesHelper import *
 from .LivingEntityHelper import *
 
+
 class PlayerEntityHelper(LivingEntityHelper, ):
-
-
 
     def __init__(e: T, ):
         pass
-
 
     def getAbilities(self, ) -> PlayerAbilitiesHelper:
         pass
@@ -42,6 +40,5 @@ class PlayerEntityHelper(LivingEntityHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

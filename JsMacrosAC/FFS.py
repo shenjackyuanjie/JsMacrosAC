@@ -1,9 +1,8 @@
 from .FileHandler import *
 from .BaseLibrary import *
 
+
 class FFS(BaseLibrary, ):
-
-
 
     def list(self, path: str, ) -> str:
         pass
@@ -37,6 +36,5 @@ class FFS(BaseLibrary, ):
 
     def open(self, path: str, ) -> FileHandler:
         pass
-
 
     pass

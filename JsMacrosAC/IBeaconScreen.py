@@ -1,7 +1,4 @@
-
 class IBeaconScreen(none, ):
-
-
 
     def jsmacros_getPrimaryEffect(self, ) -> StatusEffect:
         pass
@@ -14,6 +11,5 @@ class IBeaconScreen(none, ):
 
     def jsmacros_setSecondaryEffect(self, effect: StatusEffect, ) -> None:
         pass
-
 
     pass

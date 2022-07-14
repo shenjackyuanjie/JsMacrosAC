@@ -1,8 +1,7 @@
 from .Inventory import *
 
+
 class LoomInventory(Inventory, ):
-
-
 
     def selectPatternName(self, name: str, ) -> bool:
         pass
@@ -12,6 +11,5 @@ class LoomInventory(Inventory, ):
 
     def selectPattern(self, index: int, ) -> bool:
         pass
-
 
     pass

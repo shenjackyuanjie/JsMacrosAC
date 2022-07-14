@@ -1,12 +1,10 @@
 from .BaseHelper import *
 
+
 class StatusEffectHelper(BaseHelper, ):
-
-
 
     def __init__(s: StatusEffectInstance, ):
         pass
-
 
     def getId(self, ) -> str:
         pass
@@ -16,6 +14,5 @@ class StatusEffectHelper(BaseHelper, ):
 
     def getTime(self, ) -> int:
         pass
-
 
     pass

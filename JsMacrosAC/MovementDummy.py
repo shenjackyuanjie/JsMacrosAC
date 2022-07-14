@@ -1,12 +1,10 @@
 from .PlayerInput import *
 
+
 class MovementDummy(LivingEntity, ):
-
-
 
     def __init__(player: self, ):
         pass
-
 
     def getCoordsHistory(self, ) -> list:
         pass
@@ -43,6 +41,5 @@ class MovementDummy(LivingEntity, ):
 
     def clone(self, ) -> self:
         pass
-
 
     pass

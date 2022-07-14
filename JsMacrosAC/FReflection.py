@@ -1,9 +1,8 @@
 from .Mappings import *
 from .BaseLibrary import *
 
+
 class FReflection(BaseLibrary, ):
-
-
 
     def getClass(self, name: str, ) -> object:
         pass
@@ -40,6 +39,5 @@ class FReflection(BaseLibrary, ):
 
     def loadMappingHelper(self, urlorfile: str, ) -> Mappings:
         pass
-
 
     pass

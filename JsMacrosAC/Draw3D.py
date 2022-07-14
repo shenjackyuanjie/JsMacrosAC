@@ -2,13 +2,11 @@ from .Box import *
 from .Pos3D import *
 from .Line import *
 
+
 class Draw3D(Object, ):
-
-
 
     def __init__():
         pass
-
 
     def getBoxes(self, ) -> list:
         pass
@@ -57,6 +55,5 @@ class Draw3D(Object, ):
 
     def render(self, matrixStack: MatrixStack, ) -> None:
         pass
-
 
     pass

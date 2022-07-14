@@ -1,8 +1,7 @@
 from .OptionType import *
 
+
 class Option(none, Annotation):
-
-
 
     def translationKey(self, ) -> str:
         pass
@@ -21,6 +20,5 @@ class Option(none, Annotation):
 
     def type(self, ) -> OptionType:
         pass
-
 
     pass

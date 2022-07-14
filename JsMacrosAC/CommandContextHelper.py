@@ -1,12 +1,10 @@
 from .BaseHelper import *
 
+
 class CommandContextHelper(BaseHelper, ):
-
-
 
     def __init__(base: CommandContext, ):
         pass
-
 
     def getArg(self, name: str, ) -> Object:
         pass
@@ -19,6 +17,5 @@ class CommandContextHelper(BaseHelper, ):
 
     def getInput(self, ) -> str:
         pass
-
 
     pass

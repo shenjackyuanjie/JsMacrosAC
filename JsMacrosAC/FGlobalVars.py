@@ -1,9 +1,8 @@
 from .BaseLibrary import *
 
+
 class FGlobalVars(BaseLibrary, ):
-
     globalRaw: list = None
-
 
     def putInt(self, name: str, i: int, ) -> int:
         pass
@@ -43,6 +42,5 @@ class FGlobalVars(BaseLibrary, ):
 
     def getRaw(self, ) -> list:
         pass
-
 
     pass

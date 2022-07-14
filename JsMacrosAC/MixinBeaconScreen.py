@@ -1,12 +1,10 @@
 from .IBeaconScreen import *
 
+
 class MixinBeaconScreen(Object, IBeaconScreen):
-
-
 
     def __init__():
         pass
-
 
     def jsmacros_getPrimaryEffect(self, ) -> StatusEffect:
         pass
@@ -19,6 +17,5 @@ class MixinBeaconScreen(Object, IBeaconScreen):
 
     def jsmacros_setSecondaryEffect(self, effect: StatusEffect, ) -> None:
         pass
-
 
     pass

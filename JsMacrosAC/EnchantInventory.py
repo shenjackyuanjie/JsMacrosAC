@@ -1,9 +1,8 @@
 from .TextHelper import *
 from .Inventory import *
 
+
 class EnchantInventory(Inventory, ):
-
-
 
     def getRequiredLevels(self, ) -> int:
         pass
@@ -19,6 +18,5 @@ class EnchantInventory(Inventory, ):
 
     def doEnchant(self, index: int, ) -> bool:
         pass
-
 
     pass

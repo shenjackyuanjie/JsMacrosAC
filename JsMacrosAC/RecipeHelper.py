@@ -1,13 +1,11 @@
 from .ItemStackHelper import *
 from .BaseHelper import *
 
+
 class RecipeHelper(BaseHelper, ):
-
-
 
     def __init__(base: Recipe, syncId: int, ):
         pass
-
 
     def getId(self, ) -> str:
         pass
@@ -20,6 +18,5 @@ class RecipeHelper(BaseHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

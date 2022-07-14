@@ -1,14 +1,12 @@
 from .SelectCursor import *
 
-class History(Object, ):
 
+class History(Object, ):
     onChange: Consumer = None
     current: str = None
 
-
     def __init__(start: str, cursor: SelectCursor, ):
         pass
-
 
     def addChar(self, position: int, content: char, ) -> bool:
         pass
@@ -36,6 +34,5 @@ class History(Object, ):
 
     def redo(self, ) -> int:
         pass
-
 
     pass

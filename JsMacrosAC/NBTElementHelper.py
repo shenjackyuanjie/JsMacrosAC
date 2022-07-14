@@ -3,9 +3,8 @@ from .NBTNumberHelper import *
 from .NBTCompoundHelper import *
 from .NBTListHelper import *
 
+
 class NBTElementHelper(BaseHelper, ):
-
-
 
     def getType(self, ) -> int:
         pass
@@ -42,6 +41,5 @@ class NBTElementHelper(BaseHelper, ):
 
     def resolve(self, element: NbtElement, ) -> self:
         pass
-
 
     pass

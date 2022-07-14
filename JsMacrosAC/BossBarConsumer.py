@@ -1,11 +1,7 @@
-
 class BossBarConsumer(Object, BossBarS2CPacket$Consumer):
-
-
 
     def __init__():
         pass
-
 
     def add(self, uuid: UUID, name: str, percent: float, color: Color, style: Style, darkenSky: bool, dragonMusic: bool, thickenFog: bool, ) -> None:
         pass
@@ -24,6 +20,5 @@ class BossBarConsumer(Object, BossBarS2CPacket$Consumer):
 
     def updateProperties(self, uuid: UUID, darkenSky: bool, dragonMusic: bool, thickenFog: bool, ) -> None:
         pass
-
 
     pass

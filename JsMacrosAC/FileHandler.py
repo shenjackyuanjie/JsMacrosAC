@@ -1,11 +1,7 @@
-
 class FileHandler(Object, ):
-
-
 
     def __init__(path: str, ):
         pass
-
 
     def write(self, s: str, ) -> self:
         pass
@@ -30,6 +26,5 @@ class FileHandler(Object, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

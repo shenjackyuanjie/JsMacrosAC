@@ -2,16 +2,14 @@ from .BaseEventRegistry import *
 from .BaseEvent import *
 from .Core import *
 
-class BaseProfile(Object, ):
 
+class BaseProfile(Object, ):
     LOGGER: Logger = None
     joinedThreadStack: list = None
     profileName: str = None
 
-
     def __init__(runner: Core, logger: Logger, ):
         pass
-
 
     def logError(self, ex: Throwable, ) -> None:
         pass
@@ -45,6 +43,5 @@ class BaseProfile(Object, ):
 
     def renameCurrentProfile(self, profile: str, ) -> None:
         pass
-
 
     pass

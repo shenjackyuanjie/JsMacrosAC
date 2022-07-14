@@ -1,5 +1,6 @@
 from .RenderElement import *
 
+
 class Image(Object, RenderCommon$RenderElement):
 
     rotation: float = None
@@ -15,10 +16,8 @@ class Image(Object, RenderCommon$RenderElement):
     textureHeight: int = None
     zIndex: int = None
 
-
     def __init__(x: int, y: int, width: int, height: int, zIndex: int, id: str, imageX: int, imageY: int, regionWidth: int, regionHeight: int, textureWidth: int, textureHeight: int, rotation: float, ):
         pass
-
 
     def setPos(self, x: int, y: int, width: int, height: int, ) -> None:
         pass
@@ -37,6 +36,5 @@ class Image(Object, RenderCommon$RenderElement):
 
     def getZIndex(self, ) -> int:
         pass
-
 
     pass

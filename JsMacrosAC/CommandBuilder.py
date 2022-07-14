@@ -1,12 +1,10 @@
 from .MethodWrapper import *
 
+
 class CommandBuilder(Object, ):
-
-
 
     def __init__(name: str, ):
         pass
-
 
     def literalArg(self, name: str, ) -> self:
         pass
@@ -85,6 +83,5 @@ class CommandBuilder(Object, ):
 
     def register(self, ) -> None:
         pass
-
 
     pass

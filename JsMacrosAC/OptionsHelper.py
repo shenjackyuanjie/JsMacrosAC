@@ -1,12 +1,10 @@
 from .BaseHelper import *
 
+
 class OptionsHelper(BaseHelper, ):
-
-
 
     def __init__(options: GameOptions, ):
         pass
-
 
     def getCloudMode(self, ) -> int:
         pass
@@ -97,6 +95,5 @@ class OptionsHelper(BaseHelper, ):
 
     def setCameraMode(self, mode: int, ) -> None:
         pass
-
 
     pass

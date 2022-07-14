@@ -1,9 +1,8 @@
 from .OverlayContainer import *
 from .IContainerParent import *
 
+
 class IOverlayParent(none, IContainerParent):
-
-
 
     def closeOverlay(self, overlay: OverlayContainer, ) -> None:
         pass
@@ -13,6 +12,5 @@ class IOverlayParent(none, IContainerParent):
 
     def getChildOverlay(self, ) -> OverlayContainer:
         pass
-
 
     pass

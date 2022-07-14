@@ -3,9 +3,8 @@ from .CommandBuilder import *
 from .TextBuilder import *
 from .BaseLibrary import *
 
+
 class FChat(BaseLibrary, ):
-
-
 
     def log(self, message: Object, ) -> None:
         pass
@@ -39,6 +38,5 @@ class FChat(BaseLibrary, ):
 
     def createCommandBuilder(self, name: str, ) -> CommandBuilder:
         pass
-
 
     pass

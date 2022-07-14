@@ -2,13 +2,11 @@ from .BlockPosHelper import *
 from .NBTElementHelper import *
 from .BaseHelper import *
 
+
 class BlockDataHelper(BaseHelper, ):
-
-
 
     def __init__(b: BlockState, e: BlockEntity, bp: BlockPos, ):
         pass
-
 
     def getX(self, ) -> int:
         pass
@@ -45,6 +43,5 @@ class BlockDataHelper(BaseHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

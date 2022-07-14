@@ -1,12 +1,10 @@
 from .IRecipeBookWidget import *
 
+
 class MixinRecipeBookWidget(Object, IRecipeBookWidget):
-
-
 
     def __init__():
         pass
-
 
     def jsmacros_getResults(self, ) -> RecipeBookResults:
         pass
@@ -16,6 +14,5 @@ class MixinRecipeBookWidget(Object, IRecipeBookWidget):
 
     def jsmacros_refreshResultList(self, ) -> None:
         pass
-
 
     pass

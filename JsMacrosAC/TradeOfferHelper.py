@@ -3,13 +3,11 @@ from .NBTElementHelper import *
 from .VillagerInventory import *
 from .ItemStackHelper import *
 
+
 class TradeOfferHelper(BaseHelper, ):
-
-
 
     def __init__(base: TradeOffer, index: int, inv: VillagerInventory, ):
         pass
-
 
     def getInput(self, ) -> list:
         pass
@@ -40,6 +38,5 @@ class TradeOfferHelper(BaseHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

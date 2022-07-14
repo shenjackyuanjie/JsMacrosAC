@@ -2,14 +2,12 @@ from .fileObj import *
 from .OverlayContainer import *
 from .IOverlayParent import *
 
+
 class FileChooser(OverlayContainer, ):
-
     root: File = None
-
 
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, directory: File, selected: File, parent: IOverlayParent, setFile: Consumer, editFile: Consumer, ):
         pass
-
 
     def setDir(self, dir: File, ) -> None:
         pass
@@ -40,6 +38,5 @@ class FileChooser(OverlayContainer, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

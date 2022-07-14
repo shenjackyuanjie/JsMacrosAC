@@ -1,13 +1,11 @@
 from .ItemStackHelper import *
 from .EntityHelper import *
 
+
 class LivingEntityHelper(EntityHelper, ):
-
-
 
     def __init__(e: T, ):
         pass
-
 
     def getStatusEffects(self, ) -> list:
         pass
@@ -38,6 +36,5 @@ class LivingEntityHelper(EntityHelper, ):
 
     def isFallFlying(self, ) -> bool:
         pass
-
 
     pass

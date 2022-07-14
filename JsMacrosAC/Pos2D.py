@@ -1,16 +1,14 @@
 from .Pos3D import *
 from .Vec2D import *
 
-class Pos2D(Object, ):
 
+class Pos2D(Object, ):
     ZERO: self = None
     x: float = None
     y: float = None
 
-
     def __init__(x: float, y: float, ):
         pass
-
 
     def getX(self, ) -> float:
         pass
@@ -32,6 +30,5 @@ class Pos2D(Object, ):
 
     def toVector(self, ) -> Vec2D:
         pass
-
 
     pass

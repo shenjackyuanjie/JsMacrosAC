@@ -7,9 +7,8 @@ from .PlayerInput import *
 from .Inventory import *
 from .BaseLibrary import *
 
+
 class FPlayer(BaseLibrary, ):
-
-
 
     def openInventory(self, ) -> Inventory:
         pass
@@ -91,6 +90,5 @@ class FPlayer(BaseLibrary, ):
 
     def moveStrafeRight(self, yaw: float, ) -> None:
         pass
-
 
     pass

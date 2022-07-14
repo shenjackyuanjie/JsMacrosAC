@@ -2,13 +2,11 @@ from .BaseScreen import *
 from .ScriptTrigger import *
 from .MacroContainer import *
 
+
 class MacroScreen(BaseScreen, ):
-
-
 
     def __init__(parent: Screen, ):
         pass
-
 
     def mouseScrolled(self, mouseX: float, mouseY: float, amount: float, ) -> bool:
         pass
@@ -45,6 +43,5 @@ class MacroScreen(BaseScreen, ):
 
     def onClose(self, ) -> None:
         pass
-
 
     pass

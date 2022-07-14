@@ -2,14 +2,13 @@ from .TextHelper import *
 from .RenderElement import *
 from .BaseHelper import *
 
+
 class ButtonWidgetHelper(BaseHelper, RenderCommon$RenderElement):
 
     zIndex: int = None
 
-
     def __init__(btn: T, ):
         pass
-
 
     def getX(self, ) -> int:
         pass
@@ -52,6 +51,5 @@ class ButtonWidgetHelper(BaseHelper, RenderCommon$RenderElement):
 
     def getZIndex(self, ) -> int:
         pass
-
 
     pass

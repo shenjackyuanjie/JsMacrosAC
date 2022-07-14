@@ -1,13 +1,11 @@
 from .BaseEvent import *
 
+
 class ScriptContext(Object, ):
-
     startTime: long = None
-
 
     def __init__(event: BaseEvent, ):
         pass
-
 
     def getContext(self, ) -> WeakReference:
         pass
@@ -29,6 +27,5 @@ class ScriptContext(Object, ):
 
     def closeContext(self, ) -> None:
         pass
-
 
     pass

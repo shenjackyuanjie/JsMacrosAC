@@ -1,17 +1,15 @@
 from .Pos2D import *
 from .Vec3D import *
 
-class Vec2D(Object, ):
 
+class Vec2D(Object, ):
     x1: float = None
     y1: float = None
     x2: float = None
     y2: float = None
 
-
     def __init__(x1: float, y1: float, x2: float, y2: float, ):
         pass
-
 
     def getX1(self, ) -> float:
         pass
@@ -57,6 +55,5 @@ class Vec2D(Object, ):
 
     def to3D(self, ) -> Vec3D:
         pass
-
 
     pass

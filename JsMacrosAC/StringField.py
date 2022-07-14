@@ -2,13 +2,11 @@ from .AbstractSettingField import *
 from .AbstractSettingContainer import *
 from .SettingField import *
 
+
 class StringField(AbstractSettingField, ):
-
-
 
     def __init__(x: int, y: int, width: int, textRenderer: TextRenderer, parent: AbstractSettingContainer, field: SettingField, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -18,6 +16,5 @@ class StringField(AbstractSettingField, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

@@ -1,9 +1,8 @@
 from .OverlayContainer import *
 from .IOverlayParent import *
 
+
 class IContainerParent(none, ):
-
-
 
     def addDrawableChild(self, drawableElement: T, ) -> T:
         pass
@@ -19,6 +18,5 @@ class IContainerParent(none, ):
 
     def getFirstOverlayParent(self, ) -> IOverlayParent:
         pass
-
 
     pass

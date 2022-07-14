@@ -2,15 +2,13 @@ from .ScriptTrigger import *
 from .IEventListener import *
 from .Core import *
 
-class BaseEventRegistry(Object, ):
 
+class BaseEventRegistry(Object, ):
     oldEvents: list = None
     events: list = None
 
-
     def __init__(runner: Core, ):
         pass
-
 
     def clearMacros(self, ) -> None:
         pass
@@ -44,6 +42,5 @@ class BaseEventRegistry(Object, ):
 
     def addEvent(self, clazz: object, ) -> None:
         pass
-
 
     pass

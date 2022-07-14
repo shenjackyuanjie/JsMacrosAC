@@ -9,15 +9,13 @@ from .ButtonWidgetHelper import *
 from .IScreen import *
 from .ItemStackHelper import *
 
-class MixinScreen(AbstractParentElement, IScreen):
 
+class MixinScreen(AbstractParentElement, IScreen):
     width: int = None
     height: int = None
 
-
     def __init__():
         pass
-
 
     def onClose(self, ) -> None:
         pass
@@ -237,6 +235,5 @@ class MixinScreen(AbstractParentElement, IScreen):
 
     def handleCustomClickEvent(self, style: Style, cir: CallbackInfoReturnable, ) -> None:
         pass
-
 
     pass

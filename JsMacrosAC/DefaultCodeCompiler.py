@@ -1,13 +1,11 @@
 from .AbstractRenderCodeCompiler import *
 from .EditorScreen import *
 
+
 class DefaultCodeCompiler(AbstractRenderCodeCompiler, ):
-
-
 
     def __init__(language: str, screen: EditorScreen, ):
         pass
-
 
     def recompileRenderedText(self, text: str, ) -> None:
         pass
@@ -20,6 +18,5 @@ class DefaultCodeCompiler(AbstractRenderCodeCompiler, ):
 
     def getSuggestions(self, ) -> list:
         pass
-
 
     pass

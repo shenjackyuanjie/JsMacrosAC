@@ -5,11 +5,10 @@ from .IScreen import *
 from .IDraw2D import *
 from .BaseLibrary import *
 
-class FHud(BaseLibrary, ):
 
+class FHud(BaseLibrary, ):
     overlays: list = None
     renders: list = None
-
 
     def createScreen(self, title: str, dirtBG: bool, ) -> ScriptScreen:
         pass
@@ -61,6 +60,5 @@ class FHud(BaseLibrary, ):
 
     def getMouseY(self, ) -> float:
         pass
-
 
     pass

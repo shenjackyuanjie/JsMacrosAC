@@ -1,14 +1,12 @@
 from .MethodWrapper import *
 from .BaseEvent import *
 
+
 class EventCustom(Object, BaseEvent):
-
     eventName: str = None
-
 
     def __init__(eventName: str, ):
         pass
-
 
     def trigger(self, ) -> None:
         pass
@@ -54,6 +52,5 @@ class EventCustom(Object, BaseEvent):
 
     def registerEvent(self, ) -> None:
         pass
-
 
     pass

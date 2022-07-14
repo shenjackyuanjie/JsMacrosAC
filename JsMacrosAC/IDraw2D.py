@@ -6,9 +6,8 @@ from .Image import *
 from .RenderElement import *
 from .ItemStackHelper import *
 
+
 class IDraw2D(none, ):
-
-
 
     def getWidth(self, ) -> int:
         pass
@@ -141,6 +140,5 @@ class IDraw2D(none, ):
 
     def render(self, matrixStack: MatrixStack, ) -> None:
         pass
-
 
     pass

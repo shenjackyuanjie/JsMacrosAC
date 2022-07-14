@@ -1,8 +1,7 @@
 from .Inventory import *
 
+
 class VillagerInventory(Inventory, ):
-
-
 
     def selectTrade(self, index: int, ) -> self:
         pass
@@ -24,6 +23,5 @@ class VillagerInventory(Inventory, ):
 
     def getTrades(self, ) -> list:
         pass
-
 
     pass

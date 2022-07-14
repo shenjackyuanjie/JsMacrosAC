@@ -2,10 +2,9 @@ from .PerExecLanguageLibrary import *
 from .MethodWrapper import *
 from .IFWrapper import *
 
+
 class FWrapper(PerExecLanguageLibrary, IFWrapper):
-
     tasks: LinkedBlockingQueue = None
-
 
     def methodToJava(self, c: Function, ) -> MethodWrapper:
         pass
@@ -18,6 +17,5 @@ class FWrapper(PerExecLanguageLibrary, IFWrapper):
 
     def stop(self, ) -> None:
         pass
-
 
     pass

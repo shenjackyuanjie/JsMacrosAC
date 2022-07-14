@@ -2,13 +2,11 @@ from .BaseScreen import *
 from .RunningContextContainer import *
 from .ScriptContext import *
 
+
 class CancelScreen(BaseScreen, ):
-
-
 
     def __init__(parent: Screen, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -33,6 +31,5 @@ class CancelScreen(BaseScreen, ):
 
     def onClose(self, ) -> None:
         pass
-
 
     pass

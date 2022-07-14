@@ -7,8 +7,8 @@ from .TextBuilder import *
 from .AutoCompleteSuggestion import *
 from .BaseEvent import *
 
-class CodeCompileEvent(Object, BaseEvent):
 
+class CodeCompileEvent(Object, BaseEvent):
     cursor: SelectCursor = None
     code: str = None
     language: str = None
@@ -17,10 +17,8 @@ class CodeCompileEvent(Object, BaseEvent):
     autoCompleteSuggestions: list = None
     rightClickActions: MethodWrapper = None
 
-
     def __init__(code: str, language: str, screen: EditorScreen, ):
         pass
-
 
     def genPrismNodes(self, ) -> list:
         pass
@@ -42,6 +40,5 @@ class CodeCompileEvent(Object, BaseEvent):
 
     def getThemeData(self, ) -> list:
         pass
-
 
     pass

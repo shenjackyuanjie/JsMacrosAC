@@ -1,13 +1,11 @@
 from .PlayerEntityHelper import *
 from .EntityHelper import *
 
+
 class ClientPlayerEntityHelper(PlayerEntityHelper, ):
-
-
 
     def __init__(e: T, ):
         pass
-
 
     def lookAt(self, yaw: float, pitch: float, ) -> self:
         pass
@@ -41,6 +39,5 @@ class ClientPlayerEntityHelper(PlayerEntityHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

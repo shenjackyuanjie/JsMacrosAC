@@ -1,14 +1,12 @@
 from .Response import *
 
-class HTTPRequest(Object, ):
 
+class HTTPRequest(Object, ):
     headers: list = None
     conn: URL = None
 
-
     def __init__(url: str, ):
         pass
-
 
     def addHeader(self, key: str, value: str, ) -> self:
         pass
@@ -18,6 +16,5 @@ class HTTPRequest(Object, ):
 
     def post(self, data: str, ) -> Response:
         pass
-
 
     pass

@@ -1,12 +1,10 @@
 from .MacroScreen import *
 
+
 class KeyMacrosScreen(MacroScreen, ):
-
-
 
     def __init__(parent: Screen, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -16,6 +14,5 @@ class KeyMacrosScreen(MacroScreen, ):
 
     def mouseReleased(self, mouseX: float, mouseY: float, button: int, ) -> bool:
         pass
-
 
     pass

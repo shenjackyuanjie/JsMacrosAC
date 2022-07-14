@@ -1,7 +1,7 @@
 from .MacroSortMethod import *
 
-class ClientConfigV2(Object, ):
 
+class ClientConfigV2(Object, ):
     sortMethod: MacroSortMethod = None
     disableKeyWhenScreenOpen: bool = None
     editorTheme: list = None
@@ -10,10 +10,8 @@ class ClientConfigV2(Object, ):
     editorSuggestions: bool = None
     editorFont: str = None
 
-
     def __init__():
         pass
-
 
     def languages(self, ) -> list:
         pass
@@ -29,6 +27,5 @@ class ClientConfigV2(Object, ):
 
     def fromV1(self, v1: JsonObject, ) -> None:
         pass
-
 
     pass

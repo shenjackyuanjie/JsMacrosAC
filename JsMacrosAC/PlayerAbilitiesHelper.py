@@ -1,12 +1,10 @@
 from .BaseHelper import *
 
+
 class PlayerAbilitiesHelper(BaseHelper, ):
-
-
 
     def __init__(a: PlayerAbilities, ):
         pass
-
 
     def getInvulnerable(self, ) -> bool:
         pass
@@ -31,6 +29,5 @@ class PlayerAbilitiesHelper(BaseHelper, ):
 
     def setFlySpeed(self, flySpeed: float, ) -> self:
         pass
-
 
     pass

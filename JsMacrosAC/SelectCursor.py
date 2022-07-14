@@ -1,6 +1,4 @@
-
 class SelectCursor(Object, ):
-
     onChange: Consumer = None
     defaultStyle: Style = None
     startLine: int = None
@@ -15,16 +13,13 @@ class SelectCursor(Object, ):
     startCol: int = None
     endCol: int = None
 
-
     def __init__(defaultStyle: Style, ):
         pass
-
 
     def updateStartIndex(self, startIndex: int, current: str, ) -> None:
         pass
 
     def updateEndIndex(self, endIndex: int, current: str, ) -> None:
         pass
-
 
     pass

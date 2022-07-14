@@ -1,5 +1,6 @@
 from .SourceLocation import *
 
+
 class GuestLocation(BaseWrappedException$SourceLocation, ):
 
     file: File = None
@@ -8,13 +9,10 @@ class GuestLocation(BaseWrappedException$SourceLocation, ):
     startIndex: int = None
     endIndex: int = None
 
-
     def __init__(file: File, startIndex: int, endIndex: int, line: int, column: int, ):
         pass
 
-
     def toString(self, ) -> str:
         pass
-
 
     pass

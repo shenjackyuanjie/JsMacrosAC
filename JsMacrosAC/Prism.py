@@ -1,11 +1,7 @@
-
 class Prism(Object, GrammarLocator):
-
-
 
     def __init__():
         pass
-
 
     def getNodes(self, text: str, language: str, ) -> list:
         pass
@@ -15,6 +11,5 @@ class Prism(Object, GrammarLocator):
 
     def languages(self, ) -> list:
         pass
-
 
     pass

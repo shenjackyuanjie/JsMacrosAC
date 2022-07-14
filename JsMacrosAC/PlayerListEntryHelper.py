@@ -1,13 +1,11 @@
 from .TextHelper import *
 from .BaseHelper import *
 
+
 class PlayerListEntryHelper(BaseHelper, ):
-
-
 
     def __init__(p: PlayerListEntry, ):
         pass
-
 
     def getUUID(self, ) -> str:
         pass
@@ -20,6 +18,5 @@ class PlayerListEntryHelper(BaseHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

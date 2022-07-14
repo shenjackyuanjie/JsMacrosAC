@@ -2,13 +2,11 @@ from .Pos3D import *
 from .NBTElementHelper import *
 from .BaseHelper import *
 
+
 class EntityHelper(BaseHelper, ):
-
-
 
     def __init__(e: T, ):
         pass
-
 
     def getPos(self, ) -> Pos3D:
         pass
@@ -66,6 +64,5 @@ class EntityHelper(BaseHelper, ):
 
     def create(self, e: Entity, ) -> self:
         pass
-
 
     pass

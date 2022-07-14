@@ -1,12 +1,10 @@
 from .BaseHelper import *
 
+
 class TextHelper(BaseHelper, ):
-
-
 
     def __init__(json: str, ):
         pass
-
 
     def replaceFromJson(self, json: str, ) -> self:
         pass
@@ -25,6 +23,5 @@ class TextHelper(BaseHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

@@ -1,12 +1,10 @@
 from .ScriptContext import *
 
+
 class ContextContainer(Object, ):
-
-
 
     def __init__(ctx: ScriptContext, ):
         pass
-
 
     def isLocked(self, ) -> bool:
         pass
@@ -28,6 +26,5 @@ class ContextContainer(Object, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

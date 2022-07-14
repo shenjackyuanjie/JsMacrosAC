@@ -2,13 +2,11 @@ from .SettingsOverlay import *
 from .AbstractSettingContainer import *
 from .SettingField import *
 
+
 class PrimitiveSettingGroup(AbstractSettingContainer, ):
-
-
 
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, parent: SettingsOverlay, group: str, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -21,6 +19,5 @@ class PrimitiveSettingGroup(AbstractSettingContainer, ):
 
     def addSetting(self, setting: SettingField, ) -> None:
         pass
-
 
     pass

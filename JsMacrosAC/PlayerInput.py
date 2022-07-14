@@ -1,6 +1,4 @@
-
 class PlayerInput(Object, ):
-
     movementForward: float = None
     movementSideways: float = None
     yaw: float = None
@@ -9,10 +7,8 @@ class PlayerInput(Object, ):
     sneaking: bool = None
     sprinting: bool = None
 
-
     def __init__(movementForward: float, movementSideways: float, yaw: float, ):
         pass
-
 
     def fromCsv(self, csv: str, ) -> list:
         pass
@@ -28,6 +24,5 @@ class PlayerInput(Object, ):
 
     def clone(self, ) -> self:
         pass
-
 
     pass

@@ -3,10 +3,9 @@ from .TickSync import *
 from .OptionsHelper import *
 from .BaseLibrary import *
 
+
 class FClient(BaseLibrary, ):
-
     tickSynchronizer: TickSync = None
-
 
     def getMinecraft(self, ) -> MinecraftClient:
         pass
@@ -40,6 +39,5 @@ class FClient(BaseLibrary, ):
 
     def waitTick(self, i: int, ) -> None:
         pass
-
 
     pass

@@ -1,6 +1,7 @@
 from .RenderElement import *
 from .ItemStackHelper import *
 
+
 class Item(Object, RenderCommon$RenderElement):
 
     item: ItemStack = None
@@ -12,10 +13,8 @@ class Item(Object, RenderCommon$RenderElement):
     y: int = None
     zIndex: int = None
 
-
     def __init__(x: int, y: int, zIndex: int, id: str, overlay: bool, scale: float, rotation: float, ):
         pass
-
 
     def setPos(self, x: int, y: int, ) -> self:
         pass
@@ -46,6 +45,5 @@ class Item(Object, RenderCommon$RenderElement):
 
     def getZIndex(self, ) -> int:
         pass
-
 
     pass

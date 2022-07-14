@@ -1,12 +1,10 @@
 from .ButtonWidgetHelper import *
 
+
 class TextFieldWidgetHelper(ButtonWidgetHelper, ):
-
-
 
     def __init__(t: TextFieldWidget, ):
         pass
-
 
     def getText(self, ) -> str:
         pass
@@ -25,6 +23,5 @@ class TextFieldWidgetHelper(ButtonWidgetHelper, ):
 
     def setUneditableColor(self, color: int, ) -> self:
         pass
-
 
     pass

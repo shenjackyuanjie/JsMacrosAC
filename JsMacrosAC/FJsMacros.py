@@ -7,9 +7,8 @@ from .EventCustom import *
 from .EventAndContext import *
 from .BaseLibrary import *
 
+
 class FJsMacros(BaseLibrary, ):
-
-
 
     def getProfile(self, ) -> BaseProfile:
         pass
@@ -64,6 +63,5 @@ class FJsMacros(BaseLibrary, ):
 
     def createCustomEvent(self, eventName: str, ) -> EventCustom:
         pass
-
 
     pass

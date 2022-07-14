@@ -1,8 +1,7 @@
 from .NBTElementHelper import *
 
+
 class NBTNumberHelper(NBTElementHelper, ):
-
-
 
     def asLong(self, ) -> long:
         pass
@@ -24,6 +23,5 @@ class NBTNumberHelper(NBTElementHelper, ):
 
     def asNumber(self, ) -> Number:
         pass
-
 
     pass

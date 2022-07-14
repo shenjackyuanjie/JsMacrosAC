@@ -1,15 +1,14 @@
 from .Pos2D import *
 from .Vec3D import *
 
+
 class Pos3D(PositionCommon$Pos2D, ):
 
     ZERO: self = None
     z: float = None
 
-
     def __init__(vec: Vec3d, ):
         pass
-
 
     def getZ(self, ) -> float:
         pass
@@ -25,6 +24,5 @@ class Pos3D(PositionCommon$Pos2D, ):
 
     def toVector(self, ) -> Vec3D:
         pass
-
 
     pass

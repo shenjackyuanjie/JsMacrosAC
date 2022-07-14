@@ -1,13 +1,9 @@
-
 class Response(Object, ):
-
     headers: list = None
     responseCode: int = None
 
-
     def __init__(inputStream: InputStream, responseCode: int, headers: list, ):
         pass
-
 
     def text(self, ) -> str:
         pass
@@ -17,6 +13,5 @@ class Response(Object, ):
 
     def byteArray(self, ) -> byte:
         pass
-
 
     pass

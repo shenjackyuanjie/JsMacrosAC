@@ -267,7 +267,6 @@ from .Response import *
 from .Disconnected import *
 from .Websocket import *
 
-
 Chat = FChat()
 Client = FClient()
 GlobalVars = FGlobalVars()

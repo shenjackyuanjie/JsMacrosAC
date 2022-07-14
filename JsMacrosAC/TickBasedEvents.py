@@ -1,11 +1,7 @@
-
 class TickBasedEvents(Object, ):
-
-
 
     def __init__():
         pass
-
 
     def areNotEqual(self, a: ItemStack, b: ItemStack, ) -> bool:
         pass
@@ -18,6 +14,5 @@ class TickBasedEvents(Object, ):
 
     def init(self, ) -> None:
         pass
-
 
     pass

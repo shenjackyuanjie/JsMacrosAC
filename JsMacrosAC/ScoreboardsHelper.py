@@ -3,13 +3,11 @@ from .BaseHelper import *
 from .TeamHelper import *
 from .PlayerEntityHelper import *
 
+
 class ScoreboardsHelper(BaseHelper, ):
-
-
 
     def __init__(board: Scoreboard, ):
         pass
-
 
     def getObjectiveForTeamColorIndex(self, index: int, ) -> ScoreboardObjectiveHelper:
         pass
@@ -31,6 +29,5 @@ class ScoreboardsHelper(BaseHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

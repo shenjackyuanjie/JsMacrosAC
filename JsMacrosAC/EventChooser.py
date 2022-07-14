@@ -1,13 +1,11 @@
 from .OverlayContainer import *
 from .IOverlayParent import *
 
+
 class EventChooser(OverlayContainer, ):
-
-
 
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, selected: str, parent: IOverlayParent, setEvent: Consumer, ):
         pass
-
 
     def selectEvent(self, event: str, ) -> None:
         pass
@@ -26,6 +24,5 @@ class EventChooser(OverlayContainer, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

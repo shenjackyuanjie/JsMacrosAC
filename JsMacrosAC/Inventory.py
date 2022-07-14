@@ -1,8 +1,7 @@
 from .ItemStackHelper import *
 
+
 class Inventory(Object, ):
-
-
 
     def create(self, ) -> self:
         pass
@@ -78,6 +77,5 @@ class Inventory(Object, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

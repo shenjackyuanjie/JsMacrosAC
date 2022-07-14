@@ -3,8 +3,8 @@ from .SelectCursor import *
 from .History import *
 from .AbstractRenderCodeCompiler import *
 
-class EditorScreen(BaseScreen, ):
 
+class EditorScreen(BaseScreen, ):
     langs: list = None
     defaultStyle: Style = None
     history: History = None
@@ -15,10 +15,8 @@ class EditorScreen(BaseScreen, ):
     language: str = None
     codeCompiler: AbstractRenderCodeCompiler = None
 
-
     def __init__(parent: Screen, file: File, ):
         pass
-
 
     def getDefaultLanguage(self, ) -> str:
         pass
@@ -82,6 +80,5 @@ class EditorScreen(BaseScreen, ):
 
     def charTyped(self, chr: char, keyCode: int, ) -> bool:
         pass
-
 
     pass

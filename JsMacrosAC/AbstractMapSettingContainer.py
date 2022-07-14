@@ -2,8 +2,8 @@ from .SettingsOverlay import *
 from .AbstractSettingContainer import *
 from .SettingField import *
 
-class AbstractMapSettingContainer(AbstractSettingContainer, ):
 
+class AbstractMapSettingContainer(AbstractSettingContainer, ):
     setting: SettingField = None
     settingName: OrderedText = None
     map: list = None
@@ -11,10 +11,8 @@ class AbstractMapSettingContainer(AbstractSettingContainer, ):
     totalHeight: int = None
     defaultValue: Supplier = None
 
-
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, parent: SettingsOverlay, group: str, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -42,6 +40,5 @@ class AbstractMapSettingContainer(AbstractSettingContainer, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

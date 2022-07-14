@@ -1,15 +1,13 @@
 from .Vec3D import *
 
-class Line(Object, ):
 
+class Line(Object, ):
     pos: Vec3D = None
     color: int = None
     cull: bool = None
 
-
     def __init__(x1: float, y1: float, z1: float, x2: float, y2: float, z2: float, color: int, cull: bool, ):
         pass
-
 
     def setPos(self, x1: float, y1: float, z1: float, x2: float, y2: float, z2: float, ) -> None:
         pass
@@ -25,6 +23,5 @@ class Line(Object, ):
 
     def render(self, matrixStack: MatrixStack, ) -> None:
         pass
-
 
     pass

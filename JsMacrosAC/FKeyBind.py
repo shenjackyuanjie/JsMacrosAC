@@ -1,9 +1,8 @@
 from .BaseLibrary import *
 
+
 class FKeyBind(BaseLibrary, ):
-
     pressedKeys: list = None
-
 
     def getKeyCode(self, keyName: str, ) -> Key:
         pass
@@ -22,6 +21,5 @@ class FKeyBind(BaseLibrary, ):
 
     def getPressedKeys(self, ) -> list:
         pass
-
 
     pass

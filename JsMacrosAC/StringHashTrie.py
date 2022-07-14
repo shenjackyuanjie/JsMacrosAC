@@ -1,11 +1,7 @@
-
 class StringHashTrie(Object, Collection):
-
-
 
     def __init__():
         pass
-
 
     def size(self, ) -> int:
         pass
@@ -69,6 +65,5 @@ class StringHashTrie(Object, Collection):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

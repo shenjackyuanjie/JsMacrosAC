@@ -1,6 +1,4 @@
-
 class ConfigManager(Object, ):
-
     optionClasses: list = None
     options: list = None
     configFolder: File = None
@@ -9,10 +7,8 @@ class ConfigManager(Object, ):
     LOGGER: Logger = None
     rawOptions: JsonObject = None
 
-
     def __init__(configFolder: File, macroFolder: File, logger: Logger, ):
         pass
-
 
     def reloadRawConfigFromFile(self, ) -> None:
         pass
@@ -37,6 +33,5 @@ class ConfigManager(Object, ):
 
     def saveConfig(self, ) -> None:
         pass
-
 
     pass

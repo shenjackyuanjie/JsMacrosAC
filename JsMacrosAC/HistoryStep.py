@@ -1,7 +1,2 @@
-
 class HistoryStep(Object, ):
-
-
-
-
     pass

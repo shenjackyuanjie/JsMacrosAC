@@ -1,13 +1,11 @@
 from .TextHelper import *
 from .BaseHelper import *
 
+
 class TeamHelper(BaseHelper, ):
-
-
 
     def __init__(t: Team, ):
         pass
-
 
     def getName(self, ) -> str:
         pass
@@ -44,6 +42,5 @@ class TeamHelper(BaseHelper, ):
 
     def toString(self, ) -> str:
         pass
-
 
     pass

@@ -1,13 +1,11 @@
 from .OverlayContainer import *
 from .IOverlayParent import *
 
+
 class AboutOverlay(OverlayContainer, ):
-
-
 
     def __init__(x: int, y: int, width: int, height: int, textRenderer: TextRenderer, parent: IOverlayParent, ):
         pass
-
 
     def init(self, ) -> None:
         pass
@@ -17,6 +15,5 @@ class AboutOverlay(OverlayContainer, ):
 
     def render(self, matrices: MatrixStack, mouseX: int, mouseY: int, delta: float, ) -> None:
         pass
-
 
     pass

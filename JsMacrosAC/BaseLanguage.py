@@ -5,14 +5,12 @@ from .ContextContainer import *
 from .ScriptContext import *
 from .BaseEvent import *
 
+
 class BaseLanguage(Object, ):
-
     extension: str = None
-
 
     def __init__(extension: str, runner: Core, ):
         pass
-
 
     def trigger(self, macro: ScriptTrigger, event: BaseEvent, then: Runnable, catcher: Consumer, ) -> ContextContainer:
         pass
@@ -37,6 +35,5 @@ class BaseLanguage(Object, ):
 
     def extension(self, ) -> str:
         pass
-
 
     pass

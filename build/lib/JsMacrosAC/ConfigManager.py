@@ -20,13 +20,13 @@ class ConfigManager(Object, ):
     def convertConfigFormat(self, ) -> None:
         pass
 
-    def convertConfigFormat(self, clazz: Class, ) -> None:
+    def convertConfigFormat(self, clazz: object, ) -> None:
         pass
 
-    def getOptions(self, optionClass: Class, ) -> T:
+    def getOptions(self, optionClass: object, ) -> T:
         pass
 
-    def addOptions(self, key: str, optionClass: Class, ) -> None:
+    def addOptions(self, key: str, optionClass: object, ) -> None:
         pass
 
     def loadConfig(self, ) -> None:

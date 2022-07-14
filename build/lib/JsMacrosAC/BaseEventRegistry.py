@@ -42,7 +42,7 @@ class BaseEventRegistry(Object, ):
     def addEvent(self, eventName: str, ) -> None:
         pass
 
-    def addEvent(self, clazz: Class, ) -> None:
+    def addEvent(self, clazz: object, ) -> None:
         pass
 
 

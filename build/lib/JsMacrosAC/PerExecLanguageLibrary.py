@@ -5,7 +5,7 @@ class PerExecLanguageLibrary(BaseLibrary, ):
 
 
 
-    def __init__(context: ContextContainer, language: Class, ):
+    def __init__(context: ContextContainer, language: object, ):
         pass
 
 

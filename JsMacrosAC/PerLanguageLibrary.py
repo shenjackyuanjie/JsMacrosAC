@@ -4,7 +4,7 @@ class PerLanguageLibrary(BaseLibrary, ):
 
 
 
-    def __init__(language: Class, ):
+    def __init__(language: object, ):
         pass
 
 

@@ -5,28 +5,28 @@ class FReflection(BaseLibrary, ):
 
 
 
-    def getClass(self, name: str, ) -> Class:
+    def getClass(self, name: str, ) -> object:
         pass
 
-    def getClass(self, name: str, name2: str, ) -> Class:
+    def getClass(self, name: str, name2: str, ) -> object:
         pass
 
-    def getDeclaredMethod(self, c: Class, name: str, parameterTypes: Class, ) -> Method:
+    def getDeclaredMethod(self, c: object, name: str, parameterTypes: object, ) -> Method:
         pass
 
-    def getDeclaredMethod(self, c: Class, name: str, name2: str, parameterTypes: Class, ) -> Method:
+    def getDeclaredMethod(self, c: object, name: str, name2: str, parameterTypes: object, ) -> Method:
         pass
 
-    def getDeclaredField(self, c: Class, name: str, ) -> Field:
+    def getDeclaredField(self, c: object, name: str, ) -> Field:
         pass
 
-    def getDeclaredField(self, c: Class, name: str, name2: str, ) -> Field:
+    def getDeclaredField(self, c: object, name: str, name2: str, ) -> Field:
         pass
 
     def invokeMethod(self, m: Method, c: Object, objects: Object, ) -> Object:
         pass
 
-    def newInstance(self, c: Class, objects: Object, ) -> T:
+    def newInstance(self, c: object, objects: Object, ) -> T:
         pass
 
     def loadJarFile(self, file: str, ) -> bool:

@@ -2,11 +2,11 @@ from .Option import *
 
 class SettingField(Object, ):
 
-    type: Class = None
+    type: object = None
     option: Option = None
 
 
-    def __init__(option: Option, containingClass: Object, f: Field, getter: Method, setter: Method, type: Class, ):
+    def __init__(option: Option, containingClass: Object, f: Field, getter: Method, setter: Method, type: object, ):
         pass
 
 

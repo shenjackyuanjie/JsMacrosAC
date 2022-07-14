@@ -22,7 +22,7 @@ class LibraryRegistry(Object, ):
     def getPerExecLibraries(self, language: BaseLanguage, context: ContextContainer, ) -> list:
         pass
 
-    def addLibrary(self, clazz: Class, ) -> None:
+    def addLibrary(self, clazz: object, ) -> None:
         pass
 
 

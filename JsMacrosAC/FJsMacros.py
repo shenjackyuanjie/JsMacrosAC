@@ -1,10 +1,8 @@
 from .BaseProfile import *
-from .MethodWrapper import *
 from .ConfigManager import *
 from .IEventListener import *
-from .ContextContainer import *
-from .EventCustom import *
-from .EventAndContext import *
+from JsMacrosAC.Events.EventCustom import *
+from JsMacrosAC.Events.EventAndContext import *
 from .BaseLibrary import *
 
 
